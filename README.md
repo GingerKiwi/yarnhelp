@@ -10,7 +10,7 @@ Yarn Gift Helper is designed to help non-knitters quickly figure out how much ya
 
 ## CURRENT VERSION 1.0: 
 
-This current initial release (1.0) of the Yarn Gift Helper has been quickly adapted in an afternoon from a Scrimba Frontend Developer Career Path solo project (unit convertor). The inital idea for The Yarn Gift Helper was this codepen by Brad Travesy that I coded along with and refactored with Bootstrap 5 in early 2022.
+This current initial release (1.0) of the Yarn Gift Helper has been quickly adapted in an afternoon from a Scrimba Frontend Developer Career Path solo project (unit convertor). The inital idea for The Yarn Gift Helper popped into my head when I coded along with this codepen <https://codepen.io/bradtraversy/pen/jGNWey?editors=0010> by Brad Travesy and then refactored with Bootstrap 5 in early 2022.
 
 ## FUTURE VERSION(S) 2.0:
 
@@ -19,3 +19,11 @@ Accessibility and being able to view on a variety of device sizes are both impor
 ## Future Plans - Connecting to the Ravely.com api: 
 
 The Yarn Gift Helper app will eventually connect to the Ravelry.com yarn database ("api") of 240,475 yarns so users can search by yarn name and have the yardage automatically inputted for them. When this happens and goes live depends on the time I have to develop this further.
+
+## Knitting is ...
+
+"Knitting is at its fundamentals, a binary code featuring top-down design, standardized submodules, and recursive logic that relies on ratios, mathematical principles, and an intuitive grasp of three-dimensional geometry." ~ Kim Salazar KnitList 1995"
+
+## The Developer as a Knitter:
+
+I've been knitting since I was six years old, and typically have one sweater on the go plus smaller sock, mitten, hat or other projects. I greatly enjoy multi-colour stranded knitting ("Fairisle") and cables. I firmly believe that anyone can learn to knit - but not everyone has to learn. Find me on Ravely.com: https://www.ravelry.com/people/GingerKiwi
