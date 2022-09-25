@@ -20,7 +20,14 @@ Accessibility and being able to view on a variety of device sizes are both impor
 
 The Yarn Gift Helper app will eventually connect to the Ravelry.com yarn database ("api") of 240,475 yarns so users can search by yarn name and have the yardage automatically inputted for them. When this happens and goes live depends on the time I have to develop this further.
 
-## Knitting is ...
+## How the Number of Balls Needed is Calculated
+
+-- HOW THE NUMBER OF BALLS NEEDED IS CALCULATED: -- //
+The number of balls needed is calculated using the "max yardage" in <https://www.interweave.com/article/knitting/how-much-yarn-do-i-need/ > adding a 5% buffer ( * 1.05) and rounding up to the whole ball/skein (Math.ceil) because yarn is sold by the ball/skein and not fraction.
+### Max Yardage for Pullover Sweater/Jumper
+Baby: 550yards | Toddler: 800 yards | Child: 1200 yards | Adult small/medium or Women's: 1400 yards | Adult large/extra large or Mens's: 1700 yards
+
+## Knitting is...
 
 "Knitting is at its fundamentals, a binary code featuring top-down design, standardized submodules, and recursive logic that relies on ratios, mathematical principles, and an intuitive grasp of three-dimensional geometry." ~ Kim Salazar KnitList 1995"
 
