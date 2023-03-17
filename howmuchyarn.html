@@ -44,7 +44,7 @@
       </div>
     </div>
     <main>
-      <section>
+      <section class="grid-span-2-col">
         <h1>
           How Much Yarn? <br />
           The Yarn Gift Helper
@@ -60,7 +60,8 @@
           about yarn. This current edition is just for pullover sweaters/jumpers
           made with medium thickness yarn.
         </p>
-        <div class="instructions">
+    </section>
+        <section class="grid-span-2-col">
           <h2>Instructions</h2>
           <ol>
             <li>
@@ -78,13 +79,14 @@
               should buy as a gift.
             </li>
           </ol>
-          <div class="input">
+        </section>
+          <section class="input-yards grid-span-2-col">
             <label for="input"
           >Yards in Each Ball:
           <input type="text" placeholder="000" id="yards-per-ball"
         /></label>
 
-        <button type="submit" id="btn-calculate" class="btn-calculate">
+        <button type="submit" id="btn-calculate" class="btn-calculate btn">
           Calculate
         </button>
           </div>
@@ -92,48 +94,67 @@
     </section>
       
         
-        <section>
-          <h2>Pullover Sweaters/Jumpers</h2>
+        <section class="grid-span-3-row">
+          <h2>Pullover Sweaters</h2>
           <div class="size-answer">
             <h3>Baby Pullover</h3>
-            <p id="answer-pullover-baby"></p>
+            <p id="answer-pullover-baby" class="p-number-of-balls"></p>
           </div>
           <div class="size-answer">
             <h3>Toddler Pullover</h3>
-            <p id="answer-pullover-toddler"></p>
+            <p id="answer-pullover-toddler" class="p-number-of-balls"></p>
           </div>
           <div class="size-answer">
             <h3>Child Pullover</h3>
-            <p id="answer-pullover-child"></p>
+            <p id="answer-pullover-child" class="p-number-of-balls"></p>
           </div>
           <div class="size-answer">
             <h3>Women's Pullover</h3>
-            <p id="answer-pullover-adult01"></p>
+            <p id="answer-pullover-adult01" class="p-number-of-balls"></p>
           </div>
           <div class="size-answer">
             <h3>Men's Pullover</h3>
-            <p id="answer-pullover-adult02"></p>
+            <p id="answer-pullover-adult02" class="p-number-of-balls"></p>
           </div>
         </section>
         <!-- Other project types like blankets and hats go here -->
-        <!-- <section>
-          <div class="div-1">
+        <section class="grid-span-3-row">
             <h2>Blankets and Throws</h2>
-          </div>
-          <div class="div-3 font-family-cursive">
-            <h3>second div</h3>
-            <img
-              src="/assets/nynne-schroder-7u3d12Mdd0w-unsplash.jpg"
-              alt="ball of yarn"
-            />
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatibus veritatis iste nostrum eaque accusantium, odio ut
-              excepturi odit, deleniti tenetur in praesentium! Commodi corrupti
-              quam sit aliquid iste, ipsam sint.
-            </p>
-          </div>
-        </section> -->
+            <p>Coming soon!</p>
+            <div class="size-answer">
+              <h3>Baby Blanket</h3>
+              <p id="answer-blanket-baby" class="p-number-of-balls"></p>
+            </div>
+            <div class="size-answer">
+                <h3>Throw Blanket</h3>
+                <p id="answer-blanket-baby" class="p-number-of-balls"></p>
+              </div>
+              <div class="size-answer">
+                <h3>Twin Size Blanket</h3>
+                <p id="answer-blanket-twin" class="p-number-of-balls"></p>
+              </div>
+              <div class="size-answer">
+                <h3>Double/Queen Size Blanket</h3>
+                <p id="answer-blanket-dblqueen" class="p-number-of-balls"></p>
+              </div>
+            </section>
+
+            <section class="grid-span-3-row">
+                <h2>Accessories</h2>
+                <p>Coming soon!</p>
+                <div class="size-answer">
+                  <h3>Baby Hat</h3>
+                  <p id="answer-acc-hat-baby" class="p-number-of-balls"></p>
+                </div>
+                <div class="size-answer">
+                    <h3>Child Hat</h3>
+                    <p id="answer-acc-hat-child" class="p-number-of-balls"></p>
+                  </div>
+                  <div class="size-answer">
+                    <h3>Adult Hat</h3>
+                    <p id="answer-acc-hat-child" class="p-number-of-balls"></p>
+                  </div>
+            </section>
       </div>
     </main>
     <script src="app.js"></script>
