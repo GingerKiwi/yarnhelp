@@ -1,0 +1,192 @@
+:root {
+    --clr-space-cadet-blue: hsl(233, 24%, 19%);
+    --clr-plum: hsl(307, 43%, 39%);
+    --clr-african-violet: hsl(306, 22%, 55%);
+    --clr-rosy-brown: hsl(346, 31%, 72%);
+    --clr-champagne-pink: hsl(20, 51%, 87%);
+
+    /* gingerkiwi.blog brand colours */
+    --clr-white: hsl(0, 0%, 100%); /* #FFFFFF */
+    --clr-widget-border-1: hsl(0, 0%, 92%); /* hex: EBEBEB was light-grey */
+    --clr-header-colour-1: hsl(0, 0%, 97%); /* hex: F8F8F8| ver 1.0 was named off-white */
+    --clr-accent-2: hsl(337, 74%, 45%); /* hex: #c71e5f | ver 1.0 was named medium-blue */
+    --clr-accent-1: hsl(16, 69%, 42%); /* hex: b44821 | ver 1.0 was named dark-blue */
+    --clr-nav-accent-1: hsl(0, 0%, 44%); /* hex: 707070 | ver 1.0 was named medium-grey-1 */
+    --clr-medium-grey-2: hsl(0, 0%, 44%); /* hex: 717171 | ver 1.0 was named medium-grey-2 */
+
+    --font-family-serif-mar: 'Marcellus', serif;
+    --font-family-serif-lora: 'Lora', serif;
+    --font-family-serif-pd: 'Playfair Display', serif;
+    --font-family-sans-rw: 'Raleway', sans-serif;
+    --font-family-sans-ibm: 'IBM Plex Sans', sans-serif;
+    --font-family-sans-1-asst: 'Assistant', sans;
+}
+
+/* --- CSS RESET --- */
+
+/* Box Sizing Rules */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Remove Default Margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+/* Remove List Styles on ul, ol elements with a list role, which suggest default styling will be removed */
+
+ul[role="list"],
+ol[role="list"] {
+    list-style: none;
+}
+
+/* Set Core Root Defaults */
+html:focus-within {
+    scroll-behavior: smooth;;
+}
+
+/* Set Core Body Defaults */
+body {
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+}
+
+/* Elements That Don't Have a Class Get Default Styles */
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+}
+
+/* Make Images Easier to Work With */
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+/* Inherit Fonts for Inputs and Buttons */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/* ------------ */
+/* -- A11Y --  */
+
+/* Remove all animations, transitions, and smooth scrolling for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+    html:focus-within {
+        scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+/* --- Add Skip to Main Content Here --- */
+/* ------------ */
+
+/* --- TYPOGRAPHY --- */
+
+body {
+    background-color: var(--clr-african-violet);
+}
+
+h1, 
+h2, 
+h3 {
+    font-family: var(--font-family-sans-1-asst);
+    color: var(--clr-space-cadet-blue);
+    text-align: center;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* a:hover {
+    color: var(--clr-african-violet);
+}
+
+a:visited {
+    color: var(--clr-african-violet);
+} */
+
+
+section {
+    margin: 1rem;
+    background-color: var(--clr-champagne-pink);
+    border-radius: 5px;
+    padding: 1rem;
+    /* border: 2px solid red; */
+}
+
+/* .container {
+    background-color: var(--clr-champagne-pink);
+    border: 2px solid red;
+    padding: 1rem;
+    margin: 1rem;
+} */
+
+/* --- LAYOUT --- */
+
+/* Nav */
+
+nav ul {
+    visibility: hidden;
+    opacity: 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: var(--clr-african-violet);
+    height: 100vh;
+    padding-top: 5em;
+    z-index: 100;
+}
+
+nav ul li a {
+    color: var(--clr-champagne-pink)
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 1em;
+    display: block;
+}
+
+.exit a {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.open-nav {
+    visibility: unset;
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+/* --- Media Queries */
