@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="howmuchyarn.css" />
+    <title>YarnHelp!</title>
+  </head>
+  <body>
+    <div class="hero-home">
+      <!-- A11y: ADD SKIP TO MAIN CONTENT! -->
+      <div class="wrapper">
+        <header>
+          <a href="index.html" class="logo">Yarn Help!</a>
+
+          <nav>
+            <img
+              src="images/menu.svg"
+              class="menu"
+              id="menu-btn"
+              alt="open menu"
+            />
+            <ul class="nav" id="nav">
+              <li class="exit" id="exit-btn"></li>
+              <li><a href="index.html">Home</a></li>
+              <li class="active">
+                <a href="howmuchyarn.html">How Much Yarn?</a>
+              </li>
+              <li><a href="about.html">About and Contact</a></li>
+            </ul>
+          </nav>
+        </header>
+      </div>
+    </div>
+    <main>
+      <h1>How Much Yarn? The Yarn Gift Helper</h1>
+      <p class="instructions">
+        Instructions here Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Pariatur corporis repudiandae reprehenderit distinctio, quis nisi
+        doloremque consequatur consectetur numquam labore, quibusdam sunt ipsum
+        iusto. Quos iure facilis possimus sed quam.
+      </p>
+      <div class="container">
+        <label for="input"
+          >Yards in Each Ball:
+          <input type="text" placeholder="000" id="yards-per-ball"
+        /></label>
+
+        <button type="submit" id="btn-calcculate" class="btn-calculate">
+          Calculate
+        </button>
+        <div class="card-answer project-type">
+          <h2>Pullover Sweaters/Jumpers</h2>
+          <div class="size-answer">
+            <p id="answer-pullover-baby"></p>
+            size
+          </div>
+          <div class="size-answer">
+            <p id="answer-pullover-toddler"></p>
+            size
+          </div>
+          <div class="size-answer">
+            <p id="answer-pullover-child"></p>
+            size
+          </div>
+          <div class="size-answer">
+            <p id="answer-pullover-adult01"></p>
+            size
+          </div>
+          <div class="size-answer">
+            <p id="answer-pullover-adult02"></p>
+            size
+          </div>
+          <div class="size-answer">size</div>
+        </div>
+        <!-- Other project types like blankets and hats go here -->
+      </div>
+    </main>
+    <script src="app.js"></script>
+    <script src="howmuchyarn.js"></script>
+  </body>
+</html>
