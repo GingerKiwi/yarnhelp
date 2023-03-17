@@ -1,6 +1,6 @@
 *Note: This changelog includes both technical changes as well as the more personal process of, and reflections and influences on developing this app. Though the latter isn't typical of a commerical project, I've included it in this personal project to help others who are learning to build out their own personal projects.*
 
-## 1.1.0 (2023.03.17 | March 17, 2023)
+## 2.0 (2023.03.17 | March 17, 2023)
 
 ### Deploy to https://yarnhelp.app 
 
@@ -11,7 +11,21 @@
 - Create YarnHelp-Docs folder with CHANGELOG.md
 - Create Obsidain vault for project to manage and compose markdown files
 - Start actually using this changelog
+
+## Start 2.0 Version
+
 - Create Dev-2023.03 branch
+- Create Yarnhelp1.0 branch (so I can easily show orginal version with live server by switching branches with/out rolling back)
+- Rename orginal project files to:
+	- index01.html
+	- styles01.html
+	- app01.html
+- Create version 2.0 files for multipage site:
+	- index.html
+	- howmuchyarn.html
+	- styles.css
+	- howmuchyarn.css
+	- howmuchyarn.js 
 
 ## 1.0.0 (2023.03.14 | March 14, 2023)
 
