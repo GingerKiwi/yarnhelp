@@ -176,6 +176,17 @@ section {
 
 /* --- LAYOUT --- */
 
+/* Header */
+
+.logo {
+    font-weight: bold;
+    color: var(--clr-white);
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    /* padding: 2rem 0.5rem;
+    margin-bottom: 2.5rem; */
+}
+
 /* Nav */
 
 nav ul {
@@ -192,7 +203,7 @@ nav ul {
 }
 
 nav ul li a {
-    color: var(--clr-champagne-pink)
+    color: var(--clr-champagne-pink);
     font-size: 1.5em;
     font-weight: bold;
     padding: 1em;
@@ -213,6 +224,25 @@ nav ul li a {
     transform: translateX(0);
 }
 
+ul.nav {
+    list-style: none;
+}
+
+ul.nav li a {
+    font-size: 2rem;
+    padding: 0 1em;
+    font-weight: normal;
+}
+
+ul.nav li:last-child a {
+    padding-right: 0;
+}
+
+ul.nav .active a {
+    font-weight: bold;
+    /* text-decoration: underline; */
+}
+
 /* Body */
 
 main {
@@ -223,7 +253,6 @@ main {
 .input-yards {
     max-height: 150px;
 }
-
 
 /* --- Media Queries */
 
