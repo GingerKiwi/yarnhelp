@@ -16,17 +16,17 @@ calculateBtn.addEventListener("click", function() {
 
     // Babies and Children //
     babyPulloverAnswer.innerHTML = 
-        `You Need ${Number(Math.ceil(550 * 1.05/yardsPerBall.value))} balls of yarn for a baby pullover`
+        `You need ${Number(Math.ceil(550 * 1.05/yardsPerBall.value))} balls of yarn for a baby pullover`
     toddlerPulloverAnswer.innerHTML = 
-    `You Need ${Number(Math.ceil(800 * 1.05/yardsPerBall.value))} balls of yarn for a toddler pullover`
+    `You need ${Number(Math.ceil(800 * 1.05/yardsPerBall.value))} balls of yarn for a toddler pullover`
     childPulloverAnswer.innerHTML = 
-    `You Need ${Number(Math.ceil(1200 * 1.05/yardsPerBall.value))} balls of yarn for a child`
+    `You need ${Number(Math.ceil(1200 * 1.05/yardsPerBall.value))} balls of yarn for a child`
     
     // Adults //
     adult1PulloverAnswer.innerHTML = 
-    `You Need ${Number(Math.ceil(1400 * 1.05/yardsPerBall.value))} balls of yarn for a women's pullover`
+    `You need ${Number(Math.ceil(1400 * 1.05/yardsPerBall.value))} balls of yarn for a women's pullover`
     adult2PulloverAnswer.innerHTML = 
-    `You Need ${Number(Math.ceil(1700* 1.05/yardsPerBall.value))} balls of yarn for a men's pullover`
+    `You need ${Number(Math.ceil(1700* 1.05/yardsPerBall.value))} balls of yarn for a men's pullover`
     
     // --- BLANKETS AND THROWS
 
