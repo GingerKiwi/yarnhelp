@@ -1,32 +1,36 @@
 let yardsPerBall = document.getElementById('yards-per-ball')
 let calculateBtn = document.getElementById("btn-calculate")
 
-let babyAnswer = document.getElementById('answer-baby')
-let toddlerAnswer = document.getElementById('answer-toddler')
-let childAnswer = document.getElementById('answer-child')
-let adult1Answer = document.getElementById('answer-adult-1')
-let adult2Answer = document.getElementById('answer-adult-2')
+let babyPulloverAnswer = document.getElementById('answer-pullover-baby')
+let toddlerPulloverAnswer = document.getElementById('answer-pullover-toddler')
+let childPulloverAnswer = document.getElementById('answer-pullover-child')
+let adult1PulloverAnswer = document.getElementById('answer-pullover-adult01')
+let adult2PulloverAnswer = document.getElementById('answer-pullover-adult02')
 
 
+// -- NOTE: Need to refactor to use variables for each calculation
 
 calculateBtn.addEventListener("click", function() {
 
-    
+   // --- PULLOVER SWEATERS ---
+
     // Babies and Children //
-    babyAnswer.innerHTML = 
-        `You Need ${Number(Math.ceil(550 * 1.05/yardsPerBall.value))} Balls of Yarn`
-    toddlerAnswer.innerHTML = 
-    `You Need ${Number(Math.ceil(800 * 1.05/yardsPerBall.value))} Balls of Yarn`
-    childAnswer.innerHTML = 
-    `You Need ${Number(Math.ceil(1200 * 1.05/yardsPerBall.value))} Balls of Yarn`
+    babyPulloverAnswer.innerHTML = 
+        `You Need ${Number(Math.ceil(550 * 1.05/yardsPerBall.value))} balls of yarn for a baby pullover`
+    toddlerPulloverAnswer.innerHTML = 
+    `You Need ${Number(Math.ceil(800 * 1.05/yardsPerBall.value))} balls of yarn for a toddler pullover`
+    childPulloverAnswer.innerHTML = 
+    `You Need ${Number(Math.ceil(1200 * 1.05/yardsPerBall.value))} balls of yarn for a child`
     
     // Adults //
-    adult1Answer.innerHTML = 
-    `You Need ${Number(Math.ceil(1400 * 1.05/yardsPerBall.value))} Balls of Yarn`
-    // Baby Function //
-    adult2Answer.innerHTML = 
-    `You Need ${Number(Math.ceil(1700* 1.05/yardsPerBall.value))} Balls of Yarn`
+    adult1PulloverAnswer.innerHTML = 
+    `You Need ${Number(Math.ceil(1400 * 1.05/yardsPerBall.value))} balls of yarn for a women's pullover`
+    adult2PulloverAnswer.innerHTML = 
+    `You Need ${Number(Math.ceil(1700* 1.05/yardsPerBall.value))} balls of yarn for a men's pullover`
     
+    // --- BLANKETS AND THROWS
+
+    // -- ACCESSORIES
 })
 
 // -- HOW THE NUMBER OF BALLS NEEDED IS CALCULATED - SWEATERS/JUMPERS: -- //
