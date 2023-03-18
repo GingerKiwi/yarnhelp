@@ -9,6 +9,12 @@ let adult2PulloverAnswer = document.getElementById('answer-pullover-adult02')
 
 
 // -- NOTE: Need to refactor to use variables for each calculation
+// See Calculations.md in YarnHelp-Docs for long form calculations and js code blocks to be put here.
+// --- PULLOVER SWEATERS (JUMPERS) --- //
+// Babies and Children //
+// Number(Math.ceil(550 * 1.05/yardsPerBall.value))
+
+
 
 calculateBtn.addEventListener("click", function() {
 
