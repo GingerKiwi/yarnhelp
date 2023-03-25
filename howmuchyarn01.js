@@ -11,19 +11,19 @@ let calculateBtn = document.getElementById("btn-calculate")
 
 // Knitting Answers
 
-let babyPulloverAnswer04 = document.getElementById('answer-pullover-baby')
-let toddlerPulloverAnswer04 = document.getElementById('answer-pullover-toddler')
-let childPulloverAnswer04 = document.getElementById('answer-pullover-child')
-let womensPulloverAnswer04 = document.getElementById('answer-pullover-adult01')
-let mensPulloverAnswer04 = document.getElementById('answer-pullover-adult02')
+let babyPulloverAnswer04 = document.getElementById('answer-pullover-baby-04')
+let toddlerPulloverAnswer04 = document.getElementById('answer-pullover-toddler-04')
+let childPulloverAnswer04 = document.getElementById('answer-pullover-child-04')
+let womensPulloverAnswer04 = document.getElementById('answer-pullover-womens-04')
+let mensPulloverAnswer04 = document.getElementById('answer-pullover-mens-04')
 
 // Crochet Answers
 
-let babyCrochetPulloverAnswer04 = document.getElementById('answer-crochet-pullover-baby')
-let toddlerCrochetPulloverAnswer04 = document.getElementById('answer-crochet-pullover-toddler')
-let childCrochetPulloverAnswer04 = document.getElementById('answer-crochet-pullover-child')
-let womensCrochetPulloverAnswer04 = document.getElementById('answer-crochet-pullover-adult01')
-let mensCrochetPulloverAnswer04 = document.getElementById('answer-crochet-pullover-adult02')
+let babyCrochetPulloverAnswer04 = document.getElementById('answer-crochet-pullover-baby-04')
+let toddlerCrochetPulloverAnswer04 = document.getElementById('answer-crochet-pullover-toddler-04')
+let childCrochetPulloverAnswer04 = document.getElementById('answer-crochet-pullover-child-04')
+let womensCrochetPulloverAnswer04 = document.getElementById('answer-crochet-pullover-womens-04')
+let mensCrochetPulloverAnswer04 = document.getElementById('answer-crochet-pullover-mens-04')
 
 
 // --- 04 WORSTED WEIGHT (yarn thickness) CALCULATIONS --- //
@@ -52,18 +52,18 @@ const mensCrochetPullover04 = Number(Math.ceil(1700 * 1.28 * 1.05/yardsPerBall.v
 
 // Use the consts above in Calculations to print answer statements to the <p> inside each categories answer.
 
-babyPulloverAnswer04.innerHTML = `${babyPulloverW4} balls of this yarn are needed to knit a baby pullover`
-babyCrochetPulloverAnswer04.innerHTML = `${babyCrochetPulloverW4} balls of this yarn are needed to crochet a baby pullover`
+babyPulloverAnswer04.innerHTML = `${babyPullover04} balls of this yarn are needed to knit a baby pullover`
+babyCrochetPulloverAnswer04.innerHTML = `${babyCrochetPullover04} balls of this yarn are needed to crochet a baby pullover`
 
-toddlerPulloverAnswer04.innerHTML = `${toddlerPulloverW4} balls of this yarn are needed to knit a toddler pullover`
-toddlerCrochetPulloverAnswer04.innerHTML = `${btoddlerrochetPulloverW4} balls of this yarn are needed to crochet a toddler pullover`
+toddlerPulloverAnswer04.innerHTML = `${toddlerPullover04} balls of this yarn are needed to knit a toddler pullover`
+toddlerCrochetPulloverAnswer04.innerHTML = `${btoddlerrochetPullover04} balls of this yarn are needed to crochet a toddler pullover`
 
-childPulloverAnswer04.innerHTML = `${childPulloverW4} balls of this yarn are needed to knit a child pullover`
-childCrochetPulloverAnswer04.innerHTML = `${childCrochetPulloverW4} balls of this yarn are needed to crochet a child pullover`
+childPulloverAnswer04.innerHTML = `${childPullover04} balls of this yarn are needed to knit a child pullover`
+childCrochetPulloverAnswer04.innerHTML = `${childCrochetPullover04} balls of this yarn are needed to crochet a child pullover`
 
-womensPulloverAnswer04.innerHTML = `${womensPulloverW4} balls of this yarn are needed to knit a womens pullover`
-womensCrochetPulloverAnswer04.innerHTML = `${womensCrochetPulloverW4} balls of this yarn are needed to crochet a womens pullover`
+womensPulloverAnswer04.innerHTML = `${womensPullover04} balls of this yarn are needed to knit a womens pullover`
+womensCrochetPulloverAnswer04.innerHTML = `${womensCrochetPullover04} balls of this yarn are needed to crochet a womens pullover`
 
-mensPulloverAnswer04.innerHTML = `${mensPulloverW4} balls of this yarn are needed to knit a mens pullover`
-mensCrochetPulloverAnswer04.innerHTML = `${mensCrochetPulloverW4} balls of this yarn are needed to crochet a mens pullover`
+mensPulloverAnswer04.innerHTML = `${mensPullover04} balls of this yarn are needed to knit a mens pullover`
+mensCrochetPulloverAnswer04.innerHTML = `${mensCrochetPullover04} balls of this yarn are needed to crochet a mens pullover`
 
