@@ -12,7 +12,6 @@ let calculateBtn = document.getElementById("btn-calculate")
 // Knitting Answers
 
 let babyPulloverAnswer04 = document.getElementById('answer-pullover-baby-04')
-
 let toddlerPulloverAnswer04 = document.getElementById('answer-pullover-toddler-04')
 let childPulloverAnswer04 = document.getElementById('answer-pullover-child-04')
 let womensPulloverAnswer04 = document.getElementById('answer-pullover-womens-04')
@@ -21,7 +20,6 @@ let mensPulloverAnswer04 = document.getElementById('answer-pullover-mens-04')
 // Crochet Answers
 
 let babyCrochetPulloverAnswer04 = document.getElementById('answer-crochet-pullover-baby-04')
-
 let toddlerCrochetPulloverAnswer04 = document.getElementById('answer-crochet-pullover-toddler-04')
 let childCrochetPulloverAnswer04 = document.getElementById('answer-crochet-pullover-child-04')
 let womensCrochetPulloverAnswer04 = document.getElementById('answer-crochet-pullover-womens-04')
@@ -35,7 +33,6 @@ let mensCrochetPulloverAnswer04 = document.getElementById('answer-crochet-pullov
 // 04 Knitting 
 
 const babyPullover04 = Number(Math.ceil(550 * 1.05/yardsPerBall.value))
-
 const toddlerPullover04 = Number(Math.ceil(800 * 1.05/yardsPerBall.value))
 const childPullover04 = Number(Math.ceil(1200 * 1.05/yardsPerBall.value))
 
@@ -58,8 +55,6 @@ const mensCrochetPullover04 = Number(Math.ceil(1700 * 1.28 * 1.05/yardsPerBall.v
 
 babyPulloverAnswer04.innerHTML = `${babyPullover04} balls of this yarn are needed to knit a baby pullover`
 babyCrochetPulloverAnswer04.innerHTML = `${babyCrochetPullover04} balls of this yarn are needed to crochet a baby pullover`
-
-
 
 toddlerPulloverAnswer04.innerHTML = `${toddlerPullover04} balls of this yarn are needed to knit a toddler pullover`
 toddlerCrochetPulloverAnswer04.innerHTML = `${toddlerCrochetPullover04} balls of this yarn are needed to crochet a toddler pullover`
