@@ -9,6 +9,11 @@
 let yardsPerBall = document.getElementById('yards-per-ball')
 let calculateBtn = document.getElementById("btn-calculate")
 
+// =================//
+// --- SWEATERS --- //
+// =================//
+
+
 // Knitting Answers
 
 let babyPulloverAnswer04 = document.getElementById('answer-pullover-baby-04')
@@ -69,3 +74,29 @@ womensCrochetPulloverAnswer04.innerHTML = `${womensCrochetPullover04} balls of t
 mensPulloverAnswer04.innerHTML = `${mensPullover04} balls of this yarn are needed to knit a mens pullover`
 mensCrochetPulloverAnswer04.innerHTML = `${mensCrochetPullover04} balls of this yarn are needed to crochet a mens pullover`
 
+// =====================================//
+// --- BLANKETS, SHAWLS, and SCARFS --- //
+// ==================================== //
+
+// Start of Really Over the Top Excessively Detailed Comments 
+// -> so non-knitters can understand the code!
+
+// --- Formula Knitted Blankets, Square Shawls, and Scarfs--- //
+
+// Units: length and width are in inches, gauge is in stitches per inch
+// Formula: (length x width x gauge) / 6 = yards needed
+// note: dividing by 6 is to convert the answer from square inches to yards
+// Then put yardsRequired into our base yarns neededd calculation:
+// (Math.ceil(yardsRequired * 1.05/yardsPerBallValue)) 
+// ** yardsRequired will eventually be in a JSON file.
+
+// --> Example of Calculation -- //
+
+// For a scarf 48" long and 8" wide using worsted weight (04) yarn, using Wool of the Andes superwash by Knit Picks* that has  110 yards per ball with the typical gauge for worsted of 5 stiches/inch. (48 X 8 x 5)/6 = 320 yards required (yardsRequired).
+// * https://www.ravelry.com/yarns/library/knit-picks-wool-of-the-andes-superwash
+//
+// Then put yardsRequired into our base yarns needed calculation:
+// (Math.ceil(320 * 1.05/110)) 
+// = (Math.ceil(3.054...) 
+// = 4 balls
+// For non or new knitters, rounding up when there's "just" a small amount (0.054) over 3 balls may seem excessive - but that last 5.45 yards is the difference between finishing the project and playing "yarn chicken" and/or not being able to finish. Left over yarn is always good. Not enough yarn isn't.
