@@ -10,6 +10,11 @@ const yardsPerBallValue = Number.parseInt(yardsPerBall.value);
 // Knitting Answers
 
 // let babyPulloverAnswer04 = document.getElementById('answer-pullover-baby-04')
+letChildScarf04 = document.getElementById('child-scarf-04')
+letAdultSmallScarf04 = document.getElementById('adult-small-scarf-04')
+letAdultLargeScarf04 = document.getElementById('adult-large-scarf-04')
+letAdultExtraScarf04 = document.getElementById('adult-extra-scarf-04')
+letDoctorWhoScarf04 = document.getElementById('doctorwho-scarf-04')
 
 
 // Crochet Answers
@@ -39,8 +44,15 @@ const doctorWhoScarf04 = Number(Math.ceil(1260 * 1.05/yardsPerBallValue))
 
 // const babyCrochetPullover04 = Number(Math.ceil(550 * 1.28 * 1.05/yardsPerBallValue))
 
+const childCrochetScarf04 = Number(Math.ceil(250 * 1.28 * 1.05/yardsPerBallValue))
+const adultCrochetSmallScarf04 = Number(Math.ceil(409 * 1.28 * 1.05/yardsPerBallValue))
+const adultCrochetLargeScarf04 = Number(Math.ceil(534 * 1.28 * 1.05/yardsPerBallValue))
+const adultCrochetExtraScarf04 = Number(Math.ceil(667 * 1.28 * 1.05/yardsPerBallValue))
+const doctorWhoCrochetScarf04 = Number(Math.ceil(1260 * 1.28 * 1.05/yardsPerBallValue))
+
 // Use the consts above in Calculations to print answer statements to the <p> inside each categories answer.
 
 // babyPulloverAnswer04.innerHTML = `${babyPullover04} balls of this yarn are needed to knit a baby pullover`
 // babyCrochetPulloverAnswer04.innerHTML = `${babyCrochetPullover04} balls of this yarn are needed to crochet a baby pullover`
+
 
