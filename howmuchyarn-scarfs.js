@@ -60,4 +60,17 @@ const doctorWhoCrochetScarf04 = Number(Math.ceil(1260 * 1.28 * 1.05/yardsPerBall
 // babyPulloverAnswer04.innerHTML = `${babyPullover04} balls of this yarn are needed to knit a baby pullover`
 // babyCrochetPulloverAnswer04.innerHTML = `${babyCrochetPullover04} balls of this yarn are needed to crochet a baby pullover`
 
+ChildScarfAnswer04.innerHTML = `${babyPullover04} balls of this yarn are needed to knit a child scarf`
+ChildCrochetScarfAnswer04.innerHTML = `${babyPullover04} balls of this yarn are needed to crochet a child scarf`
 
+AdultLargeScarfAnswer04.innerHTML = `${babyPullover04} balls of this yarn are needed to knit a small or medium adult scarf`
+AdultCrochetSmallScarfAnswer04.innerHTML = `${babyPullover04} balls of this yarn are needed to crochet a  scarf`
+
+AdultLargeScarfAnswer04.innerHTML = `${babyPullover04} balls of this yarn are needed to knit a large or extra large adult scarf`
+AdultCrochetLargeScarfAnswer04.innerHTML = `${babyPullover04} balls of this yarn are needed to crochet a large or extra large adult scarf`
+
+adultExtraScarf04.innerHTML = `${babyPullover04} balls of this yarn are needed to knit an extra long adult scarf`
+adultCrochetExtraScarf04.innerHTML = `${babyPullover04} balls of this yarn are needed to crochet an extra long adult scarf`
+
+DoctorWhoScarfAnswer04.innerHTML = `${babyPullover04} balls of this yarn are needed to knit a child scarf`
+DoctorWhoScarfCrochetAnswer04.innerHTML = `${babyPullover04} balls of this yarn are needed to crochet a child scarf`
