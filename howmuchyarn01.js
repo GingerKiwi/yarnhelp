@@ -56,7 +56,7 @@ babyPulloverAnswer04.innerHTML = `${babyPullover04} balls of this yarn are neede
 babyCrochetPulloverAnswer04.innerHTML = `${babyCrochetPullover04} balls of this yarn are needed to crochet a baby pullover`
 
 toddlerPulloverAnswer04.innerHTML = `${toddlerPullover04} balls of this yarn are needed to knit a toddler pullover`
-toddlerCrochetPulloverAnswer04.innerHTML = `${btoddlerrochetPullover04} balls of this yarn are needed to crochet a toddler pullover`
+toddlerCrochetPulloverAnswer04.innerHTML = `${toddlerCrochetPullover04} balls of this yarn are needed to crochet a toddler pullover`
 
 childPulloverAnswer04.innerHTML = `${childPullover04} balls of this yarn are needed to knit a child pullover`
 childCrochetPulloverAnswer04.innerHTML = `${childCrochetPullover04} balls of this yarn are needed to crochet a child pullover`
