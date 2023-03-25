@@ -10,11 +10,11 @@ const yardsPerBallValue = Number.parseInt(yardsPerBall.value);
 // Knitting Answers
 
 // let babyPulloverAnswer04 = document.getElementById('answer-pullover-baby-04')
-letChildScarf04 = document.getElementById('child-scarf-04')
-letAdultSmallScarf04 = document.getElementById('adult-small-scarf-04')
-letAdultLargeScarf04 = document.getElementById('adult-large-scarf-04')
-letAdultExtraScarf04 = document.getElementById('adult-extra-scarf-04')
-letDoctorWhoScarf04 = document.getElementById('doctorwho-scarf-04')
+letChildScarfAnswer04 = document.getElementById('child-scarf-answer-04')
+letAdultSmallScarfAnswer04 = document.getElementById('adult-small-scarf-answer-04')
+letAdultLargeScarfAnswer04 = document.getElementById('adult-large-scarf-answer-04')
+letAdultExtraScarfAnswer04 = document.getElementById('adult-extra-scarf-answer-04')
+letDoctorWhoScarfAnswer04 = document.getElementById('doctorwho-scarf-answer-04')
 
 
 // Crochet Answers
