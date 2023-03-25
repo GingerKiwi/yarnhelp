@@ -26,9 +26,9 @@ let womensCrochetPulloverAnswer = document.getElementById('answer-crochet-pullov
 let mensCrochetPulloverAnswer = document.getElementById('answer-crochet-pullover-adult02')
 
 
-// --- 04 WORSTED WEIGHT (yarn thickness) CALCULATIONS ---
+// --- 04 WORSTED WEIGHT (yarn thickness) CALCULATIONS --- //
 
-// --- 04 Pullovers ---
+// --- 04 Pullovers --- //
 
 // 04 Knitting 
 
