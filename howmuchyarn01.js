@@ -11,19 +11,19 @@ let calculateBtn = document.getElementById("btn-calculate")
 
 // Knitting Answers
 
-let babyPulloverAnswer = document.getElementById('answer-pullover-baby')
-let toddlerPulloverAnswer = document.getElementById('answer-pullover-toddler')
-let childPulloverAnswer = document.getElementById('answer-pullover-child')
-let womensPulloverAnswer = document.getElementById('answer-pullover-adult01')
-let mensPulloverAnswer = document.getElementById('answer-pullover-adult02')
+let babyPulloverAnswer04 = document.getElementById('answer-pullover-baby')
+let toddlerPulloverAnswer04 = document.getElementById('answer-pullover-toddler')
+let childPulloverAnswer04 = document.getElementById('answer-pullover-child')
+let womensPulloverAnswer04 = document.getElementById('answer-pullover-adult01')
+let mensPulloverAnswer04 = document.getElementById('answer-pullover-adult02')
 
 // Crochet Answers
 
-let babyCrochetPulloverAnswer = document.getElementById('answer-crochet-pullover-baby')
-let toddlerCrochetPulloverAnswer = document.getElementById('answer-crochet-pullover-toddler')
-let childCrochetPulloverAnswer = document.getElementById('answer-crochet-pullover-child')
-let womensCrochetPulloverAnswer = document.getElementById('answer-crochet-pullover-adult01')
-let mensCrochetPulloverAnswer = document.getElementById('answer-crochet-pullover-adult02')
+let babyCrochetPulloverAnswer04 = document.getElementById('answer-crochet-pullover-baby')
+let toddlerCrochetPulloverAnswer04 = document.getElementById('answer-crochet-pullover-toddler')
+let childCrochetPulloverAnswer04 = document.getElementById('answer-crochet-pullover-child')
+let womensCrochetPulloverAnswer04 = document.getElementById('answer-crochet-pullover-adult01')
+let mensCrochetPulloverAnswer04 = document.getElementById('answer-crochet-pullover-adult02')
 
 
 // --- 04 WORSTED WEIGHT (yarn thickness) CALCULATIONS --- //
