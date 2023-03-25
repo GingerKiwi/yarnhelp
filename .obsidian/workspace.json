@@ -23,11 +23,9 @@
             "id": "2516c857a54ae9dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "YarnHelp-Docs/Calculations.md",
-                "mode": "source",
-                "source": false
+                "file": "YarnHelp-Docs/PDF-References/How Much Yarn Do I Need for a Knitted Sweater - Interweave.pdf"
               }
             }
           }
@@ -98,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "YarnHelp-Docs/Calculations.md",
+                "file": "YarnHelp-Docs/PDF-References/How Much Yarn Do I Need for a Knitted Sweater - Interweave.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "YarnHelp-Docs/Calculations.md",
+                "file": "YarnHelp-Docs/PDF-References/How Much Yarn Do I Need for a Knitted Sweater - Interweave.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "YarnHelp-Docs/Calculations.md"
+                "file": "YarnHelp-Docs/PDF-References/How Much Yarn Do I Need for a Knitted Sweater - Interweave.pdf"
               }
             }
           }
@@ -161,6 +159,8 @@
   },
   "active": "2516c857a54ae9dc",
   "lastOpenFiles": [
+    "YarnHelp-Docs/PDF-References/How Much Yarn Do I Need – TwistedYarnShop.pdf",
+    "YarnHelp-Docs/Calculations.md",
     "howmuchyarn01.js",
     "YarnHelp-Docs/notes.md",
     "yarnhelp.code-workspace",
@@ -171,9 +171,6 @@
     "howmuchyarn.css",
     "app01.js",
     "about.html",
-    "YarnHelp-Docs/PDF-References/How Much Yarn Do I Need – TwistedYarnShop.pdf",
-    "YarnHelp-Docs/PDF-References/How Much Yarn Do I Need for a Knitted Sweater? - Interweave.pdf",
-    "YarnHelp-Docs/Calculations.md",
     "YarnHelp-Docs/A11y.md",
     "Assets/yarnweight-4-worsted.jpg",
     "Assets/menu.svg",
