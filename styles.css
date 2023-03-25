@@ -1,178 +1,285 @@
 :root {
-    /* Colours */
-    --light-purple: hsla(250, 100%, 88%);
-    --medium-purple: hsla(252, 100%, 63%, 1);
-    --dark-purple: hsla(250, 19%, 40%, 1);
-    --off-white: hsla(0, 0%, 96%, 1);
-    --almost-white: hsla(0, 0%, 100%, 1);
-    --light-charcoal: hsla(0, 0%, 24%, 1);
-    --charcoal: hsla(0, 0%, 21%, 1);
-    --white: hsla(0, 0%, 100%);
-    --darkest-blue: hsla(215, 28%, 17%, 1);
-    --dark-blue: hsla(215, 30%, 22%, 1);
-    /* Testing Colours */
-    --red: hsla(2, 80%, 47%, 1);
-    --green: hsla(137, 100%, 45%);
-    --goldenrod: hsla(44, 96%, 71%);
-    --electric-purple: hsla(273, 98%, 60%);
-    --bright-magenta: hsla(291, 82%, 39%);
+    --clr-space-cadet-blue: hsl(233, 24%, 19%);
+    --clr-plum: hsl(307, 43%, 39%);
+    --clr-african-violet: hsl(306, 22%, 55%);
+    --clr-rosy-brown: hsl(346, 31%, 72%);
+    --clr-champagne-pink: hsl(20, 51%, 87%);
 
-    /* Font */
-    /* font-family: 'Inter', sans-serif; */
-    
-    --fs-800: 58px;
-    --fs-700: 28px;
-    --fs-600: 24px;
-    --fs-500: 20px;
-    --fs-400: 16px;
-    --fs-300: 14px;
+    /* gingerkiwi.blog brand colours */
+    --clr-white: hsl(0, 0%, 100%); /* #FFFFFF */
+    --clr-widget-border-1: hsl(0, 0%, 92%); /* hex: EBEBEB was light-grey */
+    --clr-header-colour-1: hsl(0, 0%, 97%); /* hex: F8F8F8| ver 1.0 was named off-white */
+    --clr-accent-2: hsl(337, 74%, 45%); /* hex: #c71e5f | ver 1.0 was named medium-blue */
+    --clr-accent-1: hsl(16, 69%, 42%); /* hex: b44821 | ver 1.0 was named dark-blue */
+    --clr-nav-accent-1: hsl(0, 0%, 44%); /* hex: 707070 | ver 1.0 was named medium-grey-1 */
+    --clr-medium-grey-2: hsl(0, 0%, 44%); /* hex: 717171 | ver 1.0 was named medium-grey-2 */
 
-    /* font sizes in Figma: 
-    58px, 28px, 20px, 16px, 14px, */
+    --font-family-serif-mar: 'Marcellus', serif;
+    --font-family-serif-lora: 'Lora', serif;
+    --font-family-serif-pd: 'Playfair Display', serif;
+    --font-family-sans-rw: 'Raleway', sans-serif;
+    --font-family-sans-ibm: 'IBM Plex Sans', sans-serif;
+    --font-family-sans-1-asst: 'Assistant', sans-serif;
 }
+
+/* --- CSS RESET --- */
+
+/* Box Sizing Rules */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Remove Default Margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+/* Remove List Styles on ul, ol elements with a list role, which suggest default styling will be removed */
+
+ul[role="list"],
+ol[role="list"] {
+    list-style: none;
+}
+
+/* Set Core Root Defaults */
+html:focus-within {
+    scroll-behavior: smooth;;
+}
+
+/* Set Core Body Defaults */
+body {
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+}
+
+/* Elements That Don't Have a Class Get Default Styles */
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+}
+
+/* Make Images Easier to Work With */
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+/* Inherit Fonts for Inputs and Buttons */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/* ------------ */
+/* -- A11Y --  */
+
+/* Remove all animations, transitions, and smooth scrolling for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+    html:focus-within {
+        scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+/* --- Add Skip to Main Content Here --- */
+/* ------------ */
+
+/* --- TYPOGRAPHY --- */
 
 body {
-    background-color: var(--darkest-blue);
-    font-family: 'Inter', sans-serif;
+    background-color: var(--clr-african-violet);
+    font-family: var(--font-family-sans-1-asst);
 }
 
-h2 {
+h1, 
+h2, 
+h3 {
+    font-family: var(--font-family-sans-1-asst);
+    color: var(--clr-space-cadet-blue);
     text-align: center;
-}
-
-h4 {
-    text-align: left;
 }
 
 p {
-    margin:14px 40px;
-    line-height: 1.4;
-}
-
-label {
-    font-size: var(--fs-700);
-}
-
-li {
-    margin: 14px 45px;
+    line-height: 2rem;
 }
 
 a {
-    color: var(--off-white);
-}
-#container {
-    /* border: var(--red) solid 2px; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-width: 550px;
+    cursor: pointer;
+    text-decoration: none;
 }
 
-#head {
-    /* border: var(--green) solid 4px; */
-    background-color: var(--medium-purple);
-    color: var(--almost-white);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 550px;
-    height:1185px;
+/* a:hover {
+    color: var(--clr-african-violet);
 }
 
-.img-yarn-icon {
-    width: 60px;
-    margin: 20px;
+a:visited {
+    color: var(--clr-african-violet);
+} */
+
+
+section {
+    margin: 1rem;
+    background-color: var(--clr-champagne-pink);
     border-radius: 5px;
+    padding: 1rem;
+    /* border: 2px solid red; */
 }
 
-#yards-per-ball {
-    width: 180px;
-    height: 83px;
-    font-size: var(--fs-800);
-    text-align: center;
-    background-color: var(--medium-purple);
-    color: var(--almost-white);
-    border: 2px solid var(--light-purple);
+.btn {
+    background-color: var(--clr-plum);
+    color: var(--clr-white);
     border-radius: 5px;
-    margin: 15px;
+    touch-action: manipulation;
+    border: 0;
+    box-shadow: var(--clr-rosy-brown) 0 10px 20px -10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    outline: 0 solid transparent;
+    padding: 0.5rem 1rem;
+    align-self: center;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
-#btn-calculate {
-    width: 440px;
-    height: 60px;
-    color: var(--light-charcoal);
-    background-color: var(--almost-white);
-    border: none;
-    border-radius: 5px;
-    margin: 16px;
-    font-size: var(--fs-500);
-}
-
-#conversions {
-    /* border: var(--goldenrod) solid 2px; */
-    background-color: var(--almost-white);
-    width: 550px;
-    height: 700px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.input-yards {
+    display: grid;
+    gap: 0.5rem;
     justify-content: center;
 }
 
-
-.answer-box {
-    /* border: var(--bright-magenta) solid 2px; */
-    background-color: var(--off-white);
-    width: 500px;
-    height: 108px;
-    margin: 12px;
-    text-align: center;
-    border-radius: 5px;
-    color: var(--dark-purple);
-    font-size: var(--fs-500);
+.p-number-of-balls {
+    line-height: normal;
+    padding: 1rem 0;
 }
 
-#footer {
-    width: 550px;
-    height:1200px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: var(--medium-purple);
-    color: var(--almost-white);
+/* Utility Classes */
+
+.emphasis {
+    font-style: italic;
+    font-weight: bold;
+    padding: 2rem, 0;
 }
 
-/* UTILITY CLASSES */
-/* Do I actually need these, or kiss? */
+/* --- LAYOUT --- */
 
-/* font sizes */ 
+/* Header */
 
-.fs-300 { font-size: var(--fs-300); }
-.fs-400 { font-size: var(--fs-400); }
-.fs-500 { font-size: var(--fs-500); }
-.fs-600 { font-size: var(--fs-600); }
-.fs-700 { font-size: var(--fs-700); }
-.fs-800 { font-size: var(--fs-800); }
-
-/* font weight */
-
-.fw-lighter {
-    font-weight: 400;
+.logo {
+    font-weight: bold;
+    color: var(--clr-white);
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    /* padding: 2rem 0.5rem;
+    margin-bottom: 2.5rem; */
 }
 
-.fw-bolder {
-    font-weight: 600;
+/* Nav */
+
+nav ul {
+    visibility: hidden;
+    opacity: 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: var(--clr-african-violet);
+    height: 100vh;
+    padding-top: 5em;
+    z-index: 100;
 }
 
-.fc-darker {
-    color: var(--electric-purple);
+nav ul li a {
+    color: var(--clr-champagne-pink);
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 1em;
+    display: block;
 }
 
-/* layout */
-
-.article {
-    color: var(--charcoal);
-    background-color: var(--almost-white);
-
+.exit a {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
+
+.open-nav {
+    visibility: unset;
+    opacity: 1;
+    transform: translateX(0);
+}
+
+ul.nav {
+    list-style: none;
+}
+
+ul.nav li a {
+    font-size: 2rem;
+    padding: 0 1em;
+    font-weight: normal;
+}
+
+ul.nav li:last-child a {
+    padding-right: 0;
+}
+
+ul.nav .active a {
+    font-weight: bold;
+    /* text-decoration: underline; */
+}
+
+/* Body */
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr));
+}
+
+.input-yards {
+    max-height: 150px;
+}
+
+/* --- Media Queries */
+
+@media(min-width: 400px) {
+    main {
+        grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr));
+    }
+    .grid-span-2-col {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+}
+
+/* @media(min-width: 800px) {
+    main {
+        grid-template-columns: repeat(auto-fit, minmax(min(340px, 100%), 1fr));
+    }
+     .grid-span-3-row {
+     grid-column: 2 / span 4;
+        grid-row: 5 / span 3;
+    } 
+} */
