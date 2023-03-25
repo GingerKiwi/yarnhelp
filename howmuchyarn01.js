@@ -31,24 +31,25 @@ let mensCrochetPulloverAnswer04 = document.getElementById('answer-crochet-pullov
 // --- 04 Pullovers --- //
 
 // 04 Knitting 
+const yardsPerBallValue = Number.parseInt(yardsPerBall.value);
 
-const babyPullover04 = Number(Math.ceil(550 * 1.05/yardsPerBall.value))
-const toddlerPullover04 = Number(Math.ceil(800 * 1.05/yardsPerBall.value))
-const childPullover04 = Number(Math.ceil(1200 * 1.05/yardsPerBall.value))
+const babyPullover04 = Number(Math.ceil(550 * 1.05/yardsPerBallValue))
+const toddlerPullover04 = Number(Math.ceil(800 * 1.05/yardsPerBallValue))
+const childPullover04 = Number(Math.ceil(1200 * 1.05/yardsPerBallValue))
 
-const womensPullover04 = Number(Math.ceil(1400 * 1.05/yardsPerBall.value))
-const mensPullover04 = Number(Math.ceil(1700 * 1.05/yardsPerBall.value))
+const womensPullover04 = Number(Math.ceil(1400 * 1.05/yardsPerBallValue))
+const mensPullover04 = Number(Math.ceil(1700 * 1.05/yardsPerBallValue))
 
 // 04 Crochet 
 // Crochet takes approximately 25% more yarn than knitting. (* 1.25). An extra 3% has been added to 1.25 to make sure there is enouch yarn.
 
-const babyCrochetPullover04 = Number(Math.ceil(550 * 1.28 * 1.05/yardsPerBall.value))
+const babyCrochetPullover04 = Number(Math.ceil(550 * 1.28 * 1.05/yardsPerBallValue))
 
-const toddlerCrochetPullover04 = Number(Math.ceil(800 * 1.28 * 1.05/yardsPerBall.value))
-const childCrochetPullover04 = Number(Math.ceil(1200 * 1.28 * 1.05/yardsPerBall.value))
+const toddlerCrochetPullover04 = Number(Math.ceil(800 * 1.28 * 1.05/yardsPerBallValue))
+const childCrochetPullover04 = Number(Math.ceil(1200 * 1.28 * 1.05/yardsPerBallValue))
 
-const womensCrochetPullover04 = Number(Math.ceil(1400 * 1.28 * 1.05/yardsPerBall.value))
-const mensCrochetPullover04 = Number(Math.ceil(1700 * 1.28 * 1.05/yardsPerBall.value))
+const womensCrochetPullover04 = Number(Math.ceil(1400 * 1.28 * 1.05/yardsPerBallValue))
+const mensCrochetPullover04 = Number(Math.ceil(1700 * 1.28 * 1.05/yardsPerBallValue))
 
 
 // Use the consts above in Calculations to print answer statements to the <p> inside each categories answer.
