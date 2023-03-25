@@ -32,38 +32,38 @@ let mensCrochetPulloverAnswer = document.getElementById('answer-crochet-pullover
 
 // 04 Knitting 
 
-const babyPulloverW4 = Number(Math.ceil(550 * 1.05/yardsPerBall.value))
-const toddlerPulloverW4 = Number(Math.ceil(800 * 1.05/yardsPerBall.value))
-const childPulloverW4 = Number(Math.ceil(1200 * 1.05/yardsPerBall.value))
+const babyPullover04 = Number(Math.ceil(550 * 1.05/yardsPerBall.value))
+const toddlerPullover04 = Number(Math.ceil(800 * 1.05/yardsPerBall.value))
+const childPullover04 = Number(Math.ceil(1200 * 1.05/yardsPerBall.value))
 
-const womensPulloverW4 = Number(Math.ceil(1400 * 1.05/yardsPerBall.value))
-const mensPulloverW4 = Number(Math.ceil(1700 * 1.05/yardsPerBall.value))
+const womensPullover04 = Number(Math.ceil(1400 * 1.05/yardsPerBall.value))
+const mensPullover04 = Number(Math.ceil(1700 * 1.05/yardsPerBall.value))
 
 // 04 Crochet 
 // Crochet takes approximately 25% more yarn than knitting. (* 1.25). An extra 3% has been added to 1.25 to make sure there is enouch yarn.
 
-const babyCrochetPulloverW4 = Number(Math.ceil(550 * 1.28 * 1.05/yardsPerBall.value))
-const toddlerCrochetPulloverW4 = Number(Math.ceil(800 * 1.28 * 1.05/yardsPerBall.value))
-const childCrochetPulloverW4 = Number(Math.ceil(1200 * 1.28 * 1.05/yardsPerBall.value))
+const babyCrochetPullover04 = Number(Math.ceil(550 * 1.28 * 1.05/yardsPerBall.value))
+const toddlerCrochetPullover04 = Number(Math.ceil(800 * 1.28 * 1.05/yardsPerBall.value))
+const childCrochetPullover04 = Number(Math.ceil(1200 * 1.28 * 1.05/yardsPerBall.value))
 
-const womensCrochetPulloverW4 = Number(Math.ceil(1400 * 1.28 * 1.05/yardsPerBall.value))
-const mensCrochetPulloverW4 = Number(Math.ceil(1700 * 1.28 * 1.05/yardsPerBall.value))
+const womensCrochetPullover04 = Number(Math.ceil(1400 * 1.28 * 1.05/yardsPerBall.value))
+const mensCrochetPullover04 = Number(Math.ceil(1700 * 1.28 * 1.05/yardsPerBall.value))
 
 
 // Use the consts above in Calculations to print answer statements to the <p> inside each categories answer.
 
-babyPulloverAnswer.innerHTML = `${babyPulloverW4} balls of this yarn are needed to knit a baby pullover`
-babyCrochetPulloverAnswer.innerHTML = `${babyCrochetPulloverW4} balls of this yarn are needed to crochet a baby pullover`
+babyPulloverAnswer04.innerHTML = `${babyPulloverW4} balls of this yarn are needed to knit a baby pullover`
+babyCrochetPulloverAnswer04.innerHTML = `${babyCrochetPulloverW4} balls of this yarn are needed to crochet a baby pullover`
 
-toddlerPulloverAnswer.innerHTML = `${toddlerPulloverW4} balls of this yarn are needed to knit a toddler pullover`
-toddlerCrochetPulloverAnswer.innerHTML = `${btoddlerrochetPulloverW4} balls of this yarn are needed to crochet a toddler pullover`
+toddlerPulloverAnswer04.innerHTML = `${toddlerPulloverW4} balls of this yarn are needed to knit a toddler pullover`
+toddlerCrochetPulloverAnswer04.innerHTML = `${btoddlerrochetPulloverW4} balls of this yarn are needed to crochet a toddler pullover`
 
-childPulloverAnswer.innerHTML = `${childPulloverW4} balls of this yarn are needed to knit a child pullover`
-childCrochetPulloverAnswer.innerHTML = `${childCrochetPulloverW4} balls of this yarn are needed to crochet a child pullover`
+childPulloverAnswer04.innerHTML = `${childPulloverW4} balls of this yarn are needed to knit a child pullover`
+childCrochetPulloverAnswer04.innerHTML = `${childCrochetPulloverW4} balls of this yarn are needed to crochet a child pullover`
 
-womensPulloverAnswer.innerHTML = `${womensPulloverW4} balls of this yarn are needed to knit a womens pullover`
-womensCrochetPulloverAnswer.innerHTML = `${womensCrochetPulloverW4} balls of this yarn are needed to crochet a womens pullover`
+womensPulloverAnswer04.innerHTML = `${womensPulloverW4} balls of this yarn are needed to knit a womens pullover`
+womensCrochetPulloverAnswer04.innerHTML = `${womensCrochetPulloverW4} balls of this yarn are needed to crochet a womens pullover`
 
-mensPulloverAnswer.innerHTML = `${mensPulloverW4} balls of this yarn are needed to knit a mens pullover`
-mensCrochetPulloverAnswer.innerHTML = `${mensCrochetPulloverW4} balls of this yarn are needed to crochet a mens pullover`
+mensPulloverAnswer04.innerHTML = `${mensPulloverW4} balls of this yarn are needed to knit a mens pullover`
+mensCrochetPulloverAnswer04.innerHTML = `${mensCrochetPulloverW4} balls of this yarn are needed to crochet a mens pullover`
 
