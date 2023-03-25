@@ -18,11 +18,21 @@ const yardsPerBallValue = Number.parseInt(yardsPerBall.value);
 
 // --- 04 WORSTED WEIGHT (yarn thickness) CALCULATIONS --- //
 
-// --- 04 Pullovers --- //
+// --- 04 Scarfs --- //
+// SCARF YARDAGE REQUIREMENTS
+// child 250
+// adultSmall 409
+// adultLarge 534
+// adultExtra 667
+// doctorWho 1260
 
 // 04 Knitting 
 
-// const babyPullover04 = Number(Math.ceil(550 * 1.05/yardsPerBallValue))
+const childScarf04 = Number(Math.ceil(250 * 1.05/yardsPerBallValue))
+const adultSmallScarf04 = Number(Math.ceil(409 * 1.05/yardsPerBallValue))
+const adultLargeScarf04 = Number(Math.ceil(534 * 1.05/yardsPerBallValue))
+const adultExtraScarf04 = Number(Math.ceil(667 * 1.05/yardsPerBallValue))
+const doctorWhoScarf04 = Number(Math.ceil(1260 * 1.05/yardsPerBallValue))
 
 // 04 Crochet 
 // Crochet takes approximately 25% more yarn than knitting. (* 1.25). An extra 3% has been added to 1.25 to make sure there is enouch yarn.

@@ -206,7 +206,7 @@ Worsted weight (04) gauge is 16 to 20 stiches per four inches (CYC). We are usin
 ( 8 * 80 * 5 )/6 = 533.33 // Use 534
 
 4) Adult Extra Long: 8" x 100"
-(adultLong in code)
+(adultExtra in code)
 
 ( 8 * 100 * 5 )/6 = 666.666... // Use 667
 
@@ -214,5 +214,12 @@ Worsted weight (04) gauge is 16 to 20 stiches per four inches (CYC). We are usin
 (doctorWho in code)
 
 ( 10.5 * 114 * 5 )/6 = 1260
+
+// SCARF YARDAGE REQUIREMENTS
+// child 250
+// adultSmall 409
+// adultLarge 534
+// adultExtra 667
+// doctorWho 1260
 
 ```
