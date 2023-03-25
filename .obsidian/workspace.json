@@ -11,9 +11,11 @@
             "id": "9107b4a5d18ca4ab",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "YarnHelp-Docs/PDF-References/How Much Yarn Do I Need – TwistedYarnShop.pdf"
+                "file": "YarnHelp-Docs/Calculations.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -67,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "257d8cf212b82c50",
@@ -83,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "YarnHelp-Docs/PDF-References/How Much Yarn Do I Need – TwistedYarnShop.pdf",
+                "file": "YarnHelp-Docs/Calculations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "YarnHelp-Docs/PDF-References/How Much Yarn Do I Need – TwistedYarnShop.pdf",
+                "file": "YarnHelp-Docs/Calculations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "YarnHelp-Docs/PDF-References/How Much Yarn Do I Need – TwistedYarnShop.pdf"
+                "file": "YarnHelp-Docs/Calculations.md"
               }
             }
           }
@@ -144,14 +147,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9107b4a5d18ca4ab",
+  "active": "a0f69587dc52929a",
   "lastOpenFiles": [
+    "YarnHelp-Docs/PDF-References/How Much Yarn Do I Need – TwistedYarnShop.pdf",
+    "YarnHelp-Docs/PDF-References/How Long & Wide Should a Scarf Be - DessertBlossomCrafts.pdf",
     "YarnHelp-Docs/PDF-References/How Much Yarn Do I Need for a Knitted Sweater - Interweave.pdf",
     "YarnHelp-Docs/Calculations.md",
     "YarnHelp-Docs/PDF-References/CYC_YarnStandards-2018-11-06.pdf",
     "howmuchyarn01.js",
     "README.md",
-    "YarnHelp-Docs/PDF-References/How Much Yarn Do I Need – TwistedYarnShop.pdf",
     "YarnHelp-Docs/notes.md",
     "yarnhelp.code-workspace",
     "styles01.css",
