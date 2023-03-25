@@ -10,21 +10,21 @@ const yardsPerBallValue = Number.parseInt(yardsPerBall.value);
 // Knitting Answers
 
 // let babyPulloverAnswer04 = document.getElementById('answer-pullover-baby-04')
-letChildScarfAnswer04 = document.getElementById('answer-child-scarf-04')
-letAdultSmallScarfAnswer04 = document.getElementById('answer-adult-small-scarf-04')
-letAdultLargeScarfAnswer04 = document.getElementById('answer-adult-large-scarf-answer-04')
-letAdultExtraScarfAnswer04 = document.getElementById('answer-adult-extra-scarf-answer-04')
-letDoctorWhoScarfAnswer04 = document.getElementById('answer-doctorwho-scarf-answer-04')
+let ChildScarfAnswer04 = document.getElementById('answer-child-scarf-04')
+let AdultSmallScarfAnswer04 = document.getElementById('answer-adult-small-scarf-04')
+let AdultLargeScarfAnswer04 = document.getElementById('answer-adult-large-scarf-answer-04')
+let AdultExtraScarfAnswer04 = document.getElementById('answer-adult-extra-scarf-answer-04')
+let DoctorWhoScarfAnswer04 = document.getElementById('answer-doctorwho-scarf-answer-04')
 
 
 // Crochet Answers
 
 //let babyCrochetPulloverAnswer04 = document.getElementById('answer-crochet-pullover-baby-04')
-letChildCrochetScarfAnswer04 = document.getElementById('answer-child-crochet-scarf-04')
-letAdultCrochetSmallScarfAnswer04 = document.getElementById('answer-adult-small-crochet-scarf-04')
-letAdultCrochetLargeScarfAnswer04 = document.getElementById('answer-adult-large-crochet-scarf-04')
-letAdultCrochetExtraScarfAnswer04 = document.getElementById('answer-adult-extra-crochet-scarf-answer-04')
-letDoctorWhoScarfCrochetAnswer04 = document.getElementById('answer-doctorwho-crochet-scarf-04')
+let ChildCrochetScarfAnswer04 = document.getElementById('answer-child-crochet-scarf-04')
+let AdultCrochetSmallScarfAnswer04 = document.getElementById('answer-adult-small-crochet-scarf-04')
+let AdultCrochetLargeScarfAnswer04 = document.getElementById('answer-adult-large-crochet-scarf-04')
+let AdultCrochetExtraScarfAnswer04 = document.getElementById('answer-adult-extra-crochet-scarf-answer-04')
+let DoctorWhoScarfCrochetAnswer04 = document.getElementById('answer-doctorwho-crochet-scarf-04')
 
 // --- 04 WORSTED WEIGHT (yarn thickness) CALCULATIONS --- //
 
