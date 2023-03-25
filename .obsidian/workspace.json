@@ -11,28 +11,13 @@
             "id": "9107b4a5d18ca4ab",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2516c857a54ae9dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "YarnHelp-Docs/notes.md",
-                "mode": "source",
-                "source": false
+                "file": "YarnHelp-Docs/PDF-References/How Much Yarn Do I Need for a Knitted Sweater - Interweave.pdf"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "YarnHelp-Docs/notes.md",
+                "file": "YarnHelp-Docs/PDF-References/How Much Yarn Do I Need for a Knitted Sweater - Interweave.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "YarnHelp-Docs/notes.md",
+                "file": "YarnHelp-Docs/PDF-References/How Much Yarn Do I Need for a Knitted Sweater - Interweave.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "YarnHelp-Docs/notes.md"
+                "file": "YarnHelp-Docs/PDF-References/How Much Yarn Do I Need for a Knitted Sweater - Interweave.pdf"
               }
             }
           }
@@ -159,20 +144,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2516c857a54ae9dc",
+  "active": "9107b4a5d18ca4ab",
   "lastOpenFiles": [
+    "README.md",
+    "YarnHelp-Docs/PDF-References/How Much Yarn Do I Need for a Knitted Sweater - Interweave.pdf",
+    "YarnHelp-Docs/PDF-References/How Much Yarn Do I Need for a Knitted Sweater - Interweave.pdf",
+    "YarnHelp-Docs/PDF-References/How Much Yarn Do I Need – TwistedYarnShop.pdf",
+    "YarnHelp-Docs/Calculations.md",
+    "howmuchyarn01.js",
+    "YarnHelp-Docs/notes.md",
     "yarnhelp.code-workspace",
     "styles01.css",
     "index01.html",
     "howmuchyarn.js",
     "howmuchyarn.html",
     "howmuchyarn.css",
-    "app01.js",
-    "about.html",
-    "YarnHelp-Docs/PDF-References/How Much Yarn Do I Need – TwistedYarnShop.pdf",
-    "YarnHelp-Docs/PDF-References/How Much Yarn Do I Need for a Knitted Sweater? - Interweave.pdf",
-    "YarnHelp-Docs/PDF-References/CYC_YarnStandards-2018-11-06.pdf",
-    "YarnHelp-Docs/Calculations.md",
     "YarnHelp-Docs/A11y.md",
     "Assets/yarnweight-4-worsted.jpg",
     "Assets/menu.svg",
@@ -180,8 +166,6 @@
     "images/yarnweight-4-worsted.jpg",
     "README-GitBranch-old-1.0-main.md",
     "YarnHelp-Docs/CHANGELOG.md",
-    "YarnHelp-Docs/notes.md",
-    "YarnHelp-Docs/Readme1.0.md",
-    "README.md"
+    "YarnHelp-Docs/Readme1.0.md"
   ]
 }
