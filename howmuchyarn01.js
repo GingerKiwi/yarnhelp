@@ -112,9 +112,9 @@ mensCrochetPulloverAnswer04.innerHTML = `${mensCrochetPullover04} balls of this 
 // let babyPulloverAnswer04 = document.getElementById('answer-pullover-baby-04')
 let ChildScarfAnswer04 = document.getElementById('answer-child-scarf-04')
 let AdultSmallScarfAnswer04 = document.getElementById('answer-adult-small-scarf-04')
-let AdultLargeScarfAnswer04 = document.getElementById('answer-adult-large-scarf-answer-04')
-let AdultExtraScarfAnswer04 = document.getElementById('answer-adult-extra-scarf-answer-04')
-let DoctorWhoScarfAnswer04 = document.getElementById('answer-doctorwho-scarf-answer-04')
+let AdultLargeScarfAnswer04 = document.getElementById('answer-adult-large-scarf-04')
+let AdultExtraScarfAnswer04 = document.getElementById('answer-adult-extra-scarf-04')
+let DoctorWhoScarfAnswer04 = document.getElementById('answer-doctorwho-scarf-04')
 
 
 // Crochet Answers
@@ -123,13 +123,13 @@ let DoctorWhoScarfAnswer04 = document.getElementById('answer-doctorwho-scarf-ans
 let ChildCrochetScarfAnswer04 = document.getElementById('answer-child-crochet-scarf-04')
 let AdultCrochetSmallScarfAnswer04 = document.getElementById('answer-adult-small-crochet-scarf-04')
 let AdultCrochetLargeScarfAnswer04 = document.getElementById('answer-adult-large-crochet-scarf-04')
-let AdultCrochetExtraScarfAnswer04 = document.getElementById('answer-adult-extra-crochet-scarf-answer-04')
+let AdultCrochetExtraScarfAnswer04 = document.getElementById('answer-adult-extra-crochet-scarf-04')
 let DoctorWhoScarfCrochetAnswer04 = document.getElementById('answer-doctorwho-crochet-scarf-04')
 
 // --- 04 WORSTED WEIGHT (yarn thickness) CALCULATIONS --- //
 
 // --- 04 Scarfs --- //
-// SCARF YARDAGE REQUIREMENTS
+// SCARF YARDAGE REQUIREMENTS -> See Calculations.md in the /Docs folder for more info
 // child 250
 // adultSmall 409
 // adultLarge 534
@@ -163,7 +163,7 @@ const doctorWhoCrochetScarf04 = Number(Math.ceil(1260 * 1.28 * 1.05/yardsPerBall
 ChildScarfAnswer04.innerHTML = `${childScarf04} balls of this yarn are needed to knit a child scarf`
 ChildCrochetScarfAnswer04.innerHTML = `${childCrochetScarf04} balls of this yarn are needed to crochet a child scarf`
 
-AdultLargeScarfAnswer04.innerHTML = `${adultSmallScarf04} balls of this yarn are needed to knit a small or medium adult scarf`
+AdultSmallScarfAnswer04.innerHTML = `${adultSmallScarf04} balls of this yarn are needed to knit a small or medium adult scarf`
 AdultCrochetSmallScarfAnswer04.innerHTML = `${adultCrochetSmallScarf04} balls of this yarn are needed to crochet a  scarf`
 
 AdultLargeScarfAnswer04.innerHTML = `${adultLargeScarf04} balls of this yarn are needed to knit a large or extra large adult scarf`

@@ -144,6 +144,7 @@ section {
     background-color: var(--clr-champagne-pink);
     border-radius: 5px;
     padding: 1rem;
+    filter: drop-shadow(5px 5px 7px var(--clr-plum));
     /* border: 2px solid red; */
 }
 
