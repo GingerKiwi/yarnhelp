@@ -9,7 +9,7 @@
 let yardsPerBall = document.getElementById('yards-per-ball')
 let calculateBtn = document.getElementById("btn-calculate")
 
-const yardsPerBallValue = Number.parseInt(yardsPerBall.value);
+// const yardsPerBallValue = Number.parseInt(yardsPerBall.value);
 
 // =================//
 // --- SWEATERS --- //
@@ -32,6 +32,8 @@ let childCrochetPulloverAnswer04 = document.getElementById('answer-crochet-pullo
 let womensCrochetPulloverAnswer04 = document.getElementById('answer-crochet-pullover-womens-04')
 let mensCrochetPulloverAnswer04 = document.getElementById('answer-crochet-pullover-mens-04')
 
+// Convert Input From User From String to Number
+const yardsPerBallValue = Number.parseInt(yardsPerBall.value);
 
 // --- 04 WORSTED WEIGHT (yarn thickness) CALCULATIONS --- //
 
