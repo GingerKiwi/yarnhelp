@@ -172,5 +172,5 @@ AdultCrochetLargeScarfAnswer04.innerHTML = `${adultCrochetLargeScarf04} balls of
 adultExtraScarf04.innerHTML = `${adultExtraScarf04} balls of this yarn are needed to knit an extra long adult scarf`
 adultCrochetExtraScarf04.innerHTML = `${adultCrochetExtraScarf04} balls of this yarn are needed to crochet an extra long adult scarf`
 
-DoctorWhoScarfAnswer04.innerHTML = `${doctorWhoScarf04} balls of this yarn are needed to knit a child scarf`
-DoctorWhoScarfCrochetAnswer04.innerHTML = `${doctorWhoCrochetScarf04} balls of this yarn are needed to crochet a child scarf`
+DoctorWhoScarfAnswer04.innerHTML = `${doctorWhoScarf04} balls of this yarn are needed to knit a 12 foot long Doctor Who scarf`
+DoctorWhoScarfCrochetAnswer04.innerHTML = `${doctorWhoCrochetScarf04} balls of this yarn are needed to crochet a 12 foot long Doctor Who scarf`
