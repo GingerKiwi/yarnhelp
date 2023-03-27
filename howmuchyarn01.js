@@ -17,24 +17,24 @@ let calculateBtn = document.getElementById("btn-calculate")
 let babyPulloverAnswer04 = document.getElementById('answer-pullover-baby-04')
 let toddlerPulloverAnswer04 = document.getElementById('answer-pullover-toddler-04')
 let childPulloverAnswer04 = document.getElementById('answer-pullover-child-04')
-let womensPulloverAnswer04 = document.getElementById('answer-pullover-womens-04')
-let mensPulloverAnswer04 = document.getElementById('answer-pullover-mens-04')
+let adultSmallPulloverAnswer04 = document.getElementById('answer-pullover-adult-small-04')
+let adultLargePulloverAnswer04 = document.getElementById('answer-pullover-adult-large-04')
+let adultXxlPulloverAnswer04 = document.getElementById('answer-pullover-adult-xxl-04')
 
 // Crochet
 
 let babyCrochetPulloverAnswer04 = document.getElementById('answer-crochet-pullover-baby-04')
 let toddlerCrochetPulloverAnswer04 = document.getElementById('answer-crochet-pullover-toddler-04')
 let childCrochetPulloverAnswer04 = document.getElementById('answer-crochet-pullover-child-04')
-let womensCrochetPulloverAnswer04 = document.getElementById('answer-crochet-pullover-womens-04')
-let mensCrochetPulloverAnswer04 = document.getElementById('answer-crochet-pullover-mens-04')
+let adultSmallCrochetPulloverAnswer04 = document.getElementById('answer-crochet-pullover-adult-small-04')
+let adultLargeCrochetPulloverAnswer04 = document.getElementById('answer-crochet-pullover-adult-large-04')
+let adultXxlCrochetPulloverAnswer04 = document.getElementById('answer-crochet-pullover-adult-large-04')
 
 // ===============//
 // --- SCARFS --- //
 // ===============//
 
 // Knitting
-{/* <p id="answer-adult-extra-large-scarf-04" class="p-number-of-balls"></p>
-<p id="answer-adult-extra-large-crochet-scarf-04" class="p-number-of-balls"></p> */}
 
 let childScarfAnswer04 = document.getElementById('answer-child-scarf-04')
 let adultSmallScarfAnswer04 = document.getElementById('answer-adult-small-scarf-04')
@@ -62,15 +62,17 @@ calculateBtn.addEventListener("click", function() {
     const babyPullover04 = Number(Math.ceil(550 * 1.05/yardsPerBallValue))
     const toddlerPullover04 = Number(Math.ceil(800 * 1.05/yardsPerBallValue))
     const childPullover04 = Number(Math.ceil(1200 * 1.05/yardsPerBallValue))
-    const womensPullover04 = Number(Math.ceil(1400 * 1.05/yardsPerBallValue))
-    const mensPullover04 = Number(Math.ceil(1700 * 1.05/yardsPerBallValue))
+    const adultSmallPullover04 = Number(Math.ceil(1400 * 1.05/yardsPerBallValue))
+    const adultLargePullover04 = Number(Math.ceil(1700 * 1.05/yardsPerBallValue))
+    const adultXxlPullover04 = Number(Math.ceil(1700 * 1.05/yardsPerBallValue))
 
     // 04 Crochet 
     const babyCrochetPullover04 = Number(Math.ceil(550 * 1.28 * 1.05/yardsPerBallValue))
     const toddlerCrochetPullover04 = Number(Math.ceil(800 * 1.28 * 1.05/yardsPerBallValue))
     const childCrochetPullover04 = Number(Math.ceil(1200 * 1.28 * 1.05/yardsPerBallValue))
-    const womensCrochetPullover04 = Number(Math.ceil(1400 * 1.28 * 1.05/yardsPerBallValue))
-    const mensCrochetPullover04 = Number(Math.ceil(1700 * 1.28 * 1.05/yardsPerBallValue))
+    const adultSmallCrochetPullover04 = Number(Math.ceil(1400 * 1.28 * 1.05/yardsPerBallValue))
+    const adultLargeCrochetPullover04 = Number(Math.ceil(1700 * 1.28 * 1.05/yardsPerBallValue))
+    const adultXxlCrochetPullover04 = Number(Math.ceil(1700 * 1.28 * 1.05/yardsPerBallValue))
 
     // -- 04 Scarfs -- //
    
@@ -100,11 +102,14 @@ calculateBtn.addEventListener("click", function() {
     childPulloverAnswer04.innerHTML = `${childPullover04} balls of this yarn are needed to knit a child pullover.`
     childCrochetPulloverAnswer04.innerHTML = `${childCrochetPullover04} balls of this yarn are needed to crochet a child pullover.`
 
-    womensPulloverAnswer04.innerHTML = `${womensPullover04} balls of this yarn are needed to knit a womens pullover.`
-    womensCrochetPulloverAnswer04.innerHTML = `${womensCrochetPullover04} balls of this yarn are needed to crochet a womens pullover.`
+    adultPulloverAdultSmallAnswer04.innerHTML = `${adultSmallPullover04} balls of this yarn are needed to knit a womens pullover.`
+    adultSmallCrochetPulloverAnswer04.innerHTML = `${adultSmallCrochetPullover04} balls of this yarn are needed to crochet a womens pullover.`
 
-    mensPulloverAnswer04.innerHTML = `${mensPullover04} balls of this yarn are needed to knit a mens pullover.`
-    mensCrochetPulloverAnswer04.innerHTML = `${mensCrochetPullover04} balls of this yarn are needed to crochet a mens pullover.`
+    adultLargePulloverAnswer04.innerHTML = `${adultLargePullover04} balls of this yarn are needed to knit a mens pullover.`
+    adultLargeCrochetPulloverAnswer04.innerHTML = `${adultLargeCrochetPullover04} balls of this yarn are needed to crochet a mens pullover.`
+
+    adultXxlPulloverAnswer04.innerHTML = `${adultXxlPullover04} balls of this yarn are needed to knit a mens pullover.`
+    adultXxlCrochetPulloverAnswer04.innerHTML = `${adultXxlCrochetPullover04} balls of this yarn are needed to crochet a mens pullover.`
 
     // 04 Scarfs
 
