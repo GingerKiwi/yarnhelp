@@ -6,7 +6,7 @@
 // Connect with me on LinkedIn: https://www.linkedin.com/in/elizabethmccready/
 
 let yardsPerBall = document.getElementById('yards-per-ball')
-let calculateBtn = document.getElementById("btn-calculate")
+let calculateBtn = document.getElementById('btn-calculate')
 
 // =================//
 // --- SWEATERS --- //
@@ -57,11 +57,12 @@ let doctorWhoScarfCrochetAnswer04 = document.getElementById('answer-doctorwho-cr
 // Knitting
 
 let catBlanketAnswer04 = document.getElementById('answer-cat-blanket-04')
+let babyBlanketAnswer04 = document.getElementById('answer-baby-blanket-04')
 
 // Crochet 
 
 let catCrochetBlanketAnswer04 = document.getElementById('answer-cat-crochet-blanket-04')
-
+let babyCrochetBlanketAnswer04 = document.getElementById('answer-baby-crochet-blanket-04')
 // --- Make it all work! --- //
 
 calculateBtn.addEventListener("click", function() {
@@ -107,9 +108,11 @@ calculateBtn.addEventListener("click", function() {
     // 04 Knitting 
 
     const catBlanket04 = Number(Math.ceil(120 * 1.05/yardsPerBallValue))
+    const babyBlanket04 = Number(Math.ceil(1340 * 1.05/yardsPerBallValue))
 
     // 04 Crochet
     const catCrochetBlanket04 = Number(Math.ceil(120 * 1.28 * 1.05/yardsPerBallValue))
+    const babyCrochetBlanket04 = Number(Math.ceil(1340 * 1.28 * 1.05/yardsPerBallValue))
 
     // BLANKET YARDAGE REQUIREMENTS
         // cat 120
@@ -160,7 +163,10 @@ calculateBtn.addEventListener("click", function() {
 
     // 04 Blankets
 
-    catBlanketAnswer04.innerHTML = `${catBlanket04} balls of this yarn are needed to knit a cat man.`
+    catBlanketAnswer04.innerHTML = `${catBlanket04} balls of this yarn are needed to knit a cat mat.`
     catCrochetBlanketAnswer04.innerHTML = `${catCrochetBlanket04} balls of this yarn are needed to crochet a cat mat.`
+
+    babyBlanketAnswer04.innerHTML = `${babyBlanket04} balls of this yarn are needed to knit a baby blanket.`
+    babyCrochetBlanketAnswer04.innerHTML = `${babyCrochetBlanket04} balls of this yarn are needed to crochet a baby blanket.`
 
 }) // New Devs: Dont' forget the last ) ! Nothing works if you forget it.
