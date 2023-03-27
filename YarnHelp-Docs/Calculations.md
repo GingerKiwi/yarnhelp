@@ -344,3 +344,24 @@ Worsted weight (04) gauge is 16 to 20 stiches per four inches (CYC). We are usin
 // babyPulloverAnswer04.innerHTML = `${babyPullover04} balls of this yarn are needed to knit a baby pullover`
 
 // babyCrochetPulloverAnswer04.innerHTML = `${babyCrochetPullover04} balls of this yarn are needed to crochet a baby pullover`
+
+```js
+
+```
+
+```js
+
+let AdultExtraScarfAnswer04 = document.getElementById('answer-adult-extra-scarf-04')
+
+const adultExtraScarf04 = Number(Math.ceil(667 * 1.05/yardsPerBallValue))
+
+adultExtraScarf04.innerHTML = `${adultExtraScarf04} balls of this yarn are needed to knit an extra long adult scarf`
+
+
+let AdultCrochetExtraScarfAnswer04 = document.getElementById('answer-adult-extra-crochet-scarf-04')
+
+const adultCrochetExtraScarf04 = Number(Math.ceil(667 * 1.28 * 1.05/yardsPerBallValue))
+
+adultCrochetExtraScarf04.innerHTML = `${adultCrochetExtraScarf04} balls of this yarn are needed to crochet an extra long adult scarf`
+```
+

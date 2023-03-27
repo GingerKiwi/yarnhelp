@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "YarnHelp-Docs/Calculations.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "257d8cf212b82c50",

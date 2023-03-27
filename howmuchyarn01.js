@@ -33,20 +33,26 @@ let mensCrochetPulloverAnswer04 = document.getElementById('answer-crochet-pullov
 // ===============//
 
 // Knitting
+{/* <p id="answer-adult-extra-large-scarf-04" class="p-number-of-balls"></p>
+<p id="answer-adult-extra-large-crochet-scarf-04" class="p-number-of-balls"></p> */}
 
-let ChildScarfAnswer04 = document.getElementById('answer-child-scarf-04')
-let AdultSmallScarfAnswer04 = document.getElementById('answer-adult-small-scarf-04')
-let AdultLargeScarfAnswer04 = document.getElementById('answer-adult-large-scarf-04')
-let AdultExtraScarfAnswer04 = document.getElementById('answer-adult-extra-scarf-04')
-let DoctorWhoScarfAnswer04 = document.getElementById('answer-doctorwho-scarf-04')
+let childScarfAnswer04 = document.getElementById('answer-child-scarf-04')
+let adultSmallScarfAnswer04 = document.getElementById('answer-adult-small-scarf-04')
+let adultLargeScarfAnswer04 = document.getElementById('answer-adult-large-scarf-04')
+// let adultExtraScarfAnswer04 = document.getElementById('answer-adult-extra-scarf-04')
+let buggyAnswer04 = document.getElementById('buggy-answer')
+let adultExtraLongScarfAnswer04= document.getElementById('answer-adult-extra-large-scarf-04')
+let doctorWhoScarfAnswer04 = document.getElementById('answer-doctorwho-scarf-04')
 
 // Crochet 
 
-let ChildCrochetScarfAnswer04 = document.getElementById('answer-child-crochet-scarf-04')
-let AdultCrochetSmallScarfAnswer04 = document.getElementById('answer-adult-small-crochet-scarf-04')
-let AdultCrochetLargeScarfAnswer04 = document.getElementById('answer-adult-large-crochet-scarf-04')
-let AdultCrochetExtraScarfAnswer04 = document.getElementById('answer-adult-extra-crochet-scarf-04')
-let DoctorWhoScarfCrochetAnswer04 = document.getElementById('answer-doctorwho-crochet-scarf-04')
+let childCrochetScarfAnswer04 = document.getElementById('answer-child-crochet-scarf-04')
+let adultCrochetSmallScarfAnswer04 = document.getElementById('answer-adult-small-crochet-scarf-04')
+let adultCrochetLargeScarfAnswer04 = document.getElementById('answer-adult-large-crochet-scarf-04')
+// let adultCrochetExtraScarfAnswer04 = document.getElementById('answer-adult-extra-crochet-scarf-04')
+let adultExtraLargeCrochetScarfAnswer04 = document.getElementById('answer-adult-extra-large-crochet-scarf-04')
+let buggyCrochetAnswer04 = document.getElementById('buggy-crochet-answer')
+let doctorWhoScarfCrochetAnswer04 = document.getElementById('answer-doctorwho-crochet-scarf-04')
 
 // --- Make it all work! --- //
 
@@ -71,19 +77,23 @@ calculateBtn.addEventListener("click", function() {
     const mensCrochetPullover04 = Number(Math.ceil(1700 * 1.28 * 1.05/yardsPerBallValue))
 
     // -- 04 Scarfs -- //
-    
+   
     // 04 Knitting 
     const childScarf04 = Number(Math.ceil(250 * 1.05/yardsPerBallValue))
     const adultSmallScarf04 = Number(Math.ceil(409 * 1.05/yardsPerBallValue))
     const adultLargeScarf04 = Number(Math.ceil(534 * 1.05/yardsPerBallValue))
-    const adultExtraScarf04 = Number(Math.ceil(667 * 1.05/yardsPerBallValue))
+    // const adultExtraScarf04 = Number(Math.ceil(667 * 1.05/yardsPerBallValue))
+    const buggy04 = Number(Math.ceil(667 * 1.05/yardsPerBallValue))
+    const adultExtraLongScarf04 = Number(Math.ceil(667 * 1.05/yardsPerBallValue))
     const doctorWhoScarf04 = Number(Math.ceil(1260 * 1.05/yardsPerBallValue))
 
     // 04 Crochet
     const childCrochetScarf04 = Number(Math.ceil(250 * 1.28 * 1.05/yardsPerBallValue))
     const adultCrochetSmallScarf04 = Number(Math.ceil(409 * 1.28 * 1.05/yardsPerBallValue))
     const adultCrochetLargeScarf04 = Number(Math.ceil(534 * 1.28 * 1.05/yardsPerBallValue))
-    const adultCrochetExtraScarf04 = Number(Math.ceil(667 * 1.28 * 1.05/yardsPerBallValue))
+    // const adultCrochetExtraScarf04 = Number(Math.ceil(667 * 1.28 * 1.05/yardsPerBallValue))
+    const buggyCrochet04 = Number(Math.ceil(667 * 1.28 * 1.05/yardsPerBallValue))
+    const adultExtraLargeCrochetScarf04 = Number(Math.ceil(667 * 1.28 * 1.05/yardsPerBallValue))
     const doctorWhoCrochetScarf04 = Number(Math.ceil(1260 * 1.28 * 1.05/yardsPerBallValue))
 
     // -- Use the consts above in Calculations to print answer statements to the <p> inside each categories answer.
@@ -106,18 +116,24 @@ calculateBtn.addEventListener("click", function() {
 
     // 04 Scarfs
 
-    ChildScarfAnswer04.innerHTML = `${childScarf04} balls of this yarn are needed to knit a child scarf`
-    ChildCrochetScarfAnswer04.innerHTML = `${childCrochetScarf04} balls of this yarn are needed to crochet a child scarf`
+    childScarfAnswer04.innerHTML = `${childScarf04} balls of this yarn are needed to knit a child scarf`
+    childCrochetScarfAnswer04.innerHTML = `${childCrochetScarf04} balls of this yarn are needed to crochet a child scarf`
 
-    AdultSmallScarfAnswer04.innerHTML = `${adultSmallScarf04} balls of this yarn are needed to knit a small or medium adult scarf`
-    AdultCrochetSmallScarfAnswer04.innerHTML = `${adultCrochetSmallScarf04} balls of this yarn are needed to crochet a  scarf`
+    adultSmallScarfAnswer04.innerHTML = `${adultSmallScarf04} balls of this yarn are needed to knit a small or medium adult scarf`
+    adultCrochetSmallScarfAnswer04.innerHTML = `${adultCrochetSmallScarf04} balls of this yarn are needed to crochet a  scarf`
 
-    AdultLargeScarfAnswer04.innerHTML = `${adultLargeScarf04} balls of this yarn are needed to knit a large or extra large adult scarf`
-    AdultCrochetLargeScarfAnswer04.innerHTML = `${adultCrochetLargeScarf04} balls of this yarn are needed to crochet a large or extra large adult scarf`
+    adultLargeScarfAnswer04.innerHTML = `${adultLargeScarf04} balls of this yarn are needed to knit a large or extra large adult scarf`
+    adultCrochetLargeScarfAnswer04.innerHTML = `${adultCrochetLargeScarf04} balls of this yarn are needed to crochet a large or extra large adult scarf`
 
-    adultExtraScarf04.innerHTML = `${adultExtraScarf04} balls of this yarn are needed to knit an extra long adult scarf`
-    adultCrochetExtraScarf04.innerHTML = `${adultCrochetExtraScarf04} balls of this yarn are needed to crochet an extra long adult scarf`
+    // adultExtraScarfAnswer04.innerHTML = `${adultExtraScarf04} balls of this yarn are needed to knit an extra long adult scarf`
+    // adultCrochetExtraScarfAnswer04.innerHTML = `${adultCrochetExtraScarf04} balls of this yarn are needed to crochet an extra long adult scarf`
 
-    DoctorWhoScarfAnswer04.innerHTML = `${doctorWhoScarf04} balls of this yarn are needed to knit a 12 foot long Doctor Who scarf`
-    DoctorWhoScarfCrochetAnswer04.innerHTML = `${doctorWhoCrochetScarf04} balls of this yarn are needed to crochet a 12 foot long Doctor Who scarf`
+    buggyAnswer04.innerHTML = `${buggy04} is it working?`
+    buggyCrochetAnswer04.innerHTML = `${buggyCrochet04} is it working?`
+
+    adultExtraLongScarfAnswer04.innerHTML = `${adultExtraLongScarf04} yup it works knit!`
+    adultExtraLargeCrochetScarfAnswer04.innerHTML = `${adultExtraLargeCrochetScarf04} yes, it works crochet!`
+
+    doctorWhoScarfAnswer04.innerHTML = `${doctorWhoScarf04} balls of this yarn are needed to knit a 12 foot long Doctor Who scarf`
+    doctorWhoScarfCrochetAnswer04.innerHTML = `${doctorWhoCrochetScarf04} balls of this yarn are needed to crochet a 12 foot long Doctor Who scarf`
 }) // New Devs: Dont' forget the last ) ! Nothing works if you forget it.
