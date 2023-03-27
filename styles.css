@@ -193,7 +193,11 @@ section {
 .emphasis {
     font-style: italic;
     font-weight: bold;
-    padding: 2rem, 0;
+    /* padding: 2rem, 0; */
+}
+
+.padding-bottom-2rem {
+    padding-bottom: 2rem;
 }
 
 .margin-bottom-2rem {
@@ -221,6 +225,7 @@ section {
     color: var(--clr-white);
     text-transform: uppercase;
     margin-bottom: 1rem;
+    margin-left: 1rem;
     /* padding: 2rem 0.5rem;
     margin-bottom: 2.5rem; */
 }
