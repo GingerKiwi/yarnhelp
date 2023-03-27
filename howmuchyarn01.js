@@ -90,6 +90,15 @@ calculateBtn.addEventListener("click", function() {
     const adultExtraLargeCrochetScarf04 = Number(Math.ceil(667 * 1.28 * 1.05/yardsPerBallValue))
     const doctorWhoCrochetScarf04 = Number(Math.ceil(1260 * 1.28 * 1.05/yardsPerBallValue))
 
+    // BLANKET YARDAGE REQUIREMENTS
+        // cat 120
+        // baby 1340
+        // throw 2600
+        // twin 4950
+        // double 8100
+        // queen 8640
+        // king 9720
+
     // -- Use the consts above in Calculations to print answer statements to the <p> inside each categories answer.
     
     // 04 Pullover Answers

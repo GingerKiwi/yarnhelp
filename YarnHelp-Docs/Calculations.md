@@ -370,3 +370,54 @@ adultCrochetExtraScarf04.innerHTML = `${adultCrochetExtraScarf04} balls of this 
 
 ## BLANKETS: HOW THE NUMBER OF BALLS NEEDED IS CALCULATED
 
+Blanket sizes adapted from [Marley Bird: What Are The Best Knit and Crochet Blanket Sizes for All Ages?](https://marlybird.com/what-are-the-best-knit-and-crochet-blanket-sizes-for-all-ages)
+
+Formula: length x width x gauge
+```js
+1) Cat Mat: 12" x 12"
+(cat in code)
+
+( 12 * 12 * 5 )/6 = 120
+
+2) Baby: 40" x 40"
+(baby in code)
+
+( 40 * 40 * 5 )/6 = 1,333.333.. //Use 1340
+
+3) Throw:  52" x 60"
+(throw in code)
+
+( 52 * 60 * 5 )/6 = 2600
+
+4) Twin: 66" x 90"
+(twin in code)
+
+( 66 * 90 * 5 )/6 = 4950
+
+5) Double 90" x 108" 
+(double in code)
+
+( 90 * 108 * 5 )/6 = 8100
+
+6) Queen 96" x 108" 
+(queen in code)
+
+( 96 * 108 * 5 )/6 = 8640
+
+7) King 108" x 108" 
+(king in code)
+
+( 108* 108 * 5 )/6 = 9720
+
+
+
+// BLANKET YARDAGE REQUIREMENTS
+// cat 120
+// baby 1340
+// throw 2600
+// twin 4950
+// double 8100
+// queen 8640
+// king 9720
+
+```
