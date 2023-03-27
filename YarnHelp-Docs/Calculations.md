@@ -365,3 +365,8 @@ const adultCrochetExtraScarf04 = Number(Math.ceil(667 * 1.28 * 1.05/yardsPerBall
 adultCrochetExtraScarf04.innerHTML = `${adultCrochetExtraScarf04} balls of this yarn are needed to crochet an extra long adult scarf`
 ```
 
+
+( 5 * 60 * 5 )/6 = 250
+
+## BLANKETS: HOW THE NUMBER OF BALLS NEEDED IS CALCULATED
+

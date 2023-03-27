@@ -64,7 +64,7 @@ calculateBtn.addEventListener("click", function() {
     const childPullover04 = Number(Math.ceil(1200 * 1.05/yardsPerBallValue))
     const adultSmallPullover04 = Number(Math.ceil(1400 * 1.05/yardsPerBallValue))
     const adultLargePullover04 = Number(Math.ceil(1700 * 1.05/yardsPerBallValue))
-    const adultXxlPullover04 = Number(Math.ceil(1700 * 1.05/yardsPerBallValue))
+    const adultXxlPullover04 = Number(Math.ceil(1850 * 1.05/yardsPerBallValue))
 
     // 04 Crochet 
     const babyCrochetPullover04 = Number(Math.ceil(550 * 1.28 * 1.05/yardsPerBallValue))
@@ -72,7 +72,7 @@ calculateBtn.addEventListener("click", function() {
     const childCrochetPullover04 = Number(Math.ceil(1200 * 1.28 * 1.05/yardsPerBallValue))
     const adultSmallCrochetPullover04 = Number(Math.ceil(1400 * 1.28 * 1.05/yardsPerBallValue))
     const adultLargeCrochetPullover04 = Number(Math.ceil(1700 * 1.28 * 1.05/yardsPerBallValue))
-    const adultXxlCrochetPullover04 = Number(Math.ceil(1700 * 1.28 * 1.05/yardsPerBallValue))
+    const adultXxlCrochetPullover04 = Number(Math.ceil(1850 * 1.28 * 1.05/yardsPerBallValue))
 
     // -- 04 Scarfs -- //
    
