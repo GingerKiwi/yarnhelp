@@ -185,6 +185,11 @@ section {
 
 /* Utility Classes */
 
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
 .emphasis {
     font-style: italic;
     font-weight: bold;
@@ -197,6 +202,14 @@ section {
 
 .text-center {
     text-align: center;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.max-width-80-percent {
+    max-width: 80%;
 }
 
 /* --- LAYOUT --- */
@@ -274,6 +287,11 @@ main {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr));
 }
+
+img {
+    margin: auto;
+    display: block;
+  }
 
 .input-yards {
     max-height: 150px;

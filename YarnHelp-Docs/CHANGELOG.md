@@ -1,5 +1,34 @@
 *Note: This changelog includes both technical changes as well as the more personal process of, and reflections and influences on developing this app. Though the latter isn't typical of a commerical project, I've included it in this personal project to help others who are learning to build out their own personal projects.*
 
+## 2.1 (2023.03.27 | March 26-27, 2023)
+
+March 27:
+- Added eventListener back to howmuchyarn.html
+- Added calculations for cat mats and baby blankets to blankets section on howmuchyarn.js
+- Updated docs
+- Tidied up comments in howmuchyarn.js
+- Add image of tardis from Wikimedia Commons to doctorwho.html
+- Update text on doctorwho.html 
+	- Include ref to Chris Brimlow's Ravelry page and his DoctorWhoScarf.com website.
+- Merge Dev-2023.03-add-crochet-and-blankets branch into main.
+- Ready to push to GitHub and continuously deploy on Netflify.
+
+March 26:
+- Created doctorwho.html and doctorwho.js:
+	- to debug what broke March 26
+	- to have a spot to test pattern generator later
+	- because it's cool and fun!
+- Changed type="text" to type="number" for input on Marco Campos suggestion
+- Found 2 bugs 
+	- -> somehow deleted eventListener on March 26.
+	- -> [Kieran](kieran.ca) on Toronto JS Slack help channel: answer-doctorwho-crochet-scarf-04 != answer-doctorwho-crochet-04 !
+- Fixed the Doctor Who page
+
+March 25: 
+- Add scarfs to Calculations.md,  howmuchyarn.html,  and howmuchyarn01.js
+- Fix bug that was causing a NaN error with help of Marco Campos on Discord video.
+- Broke the site again.
+
 ## 2.0 (2023.03.18 | March 18, 2023)
 
 ### Work on Docs and Calculations
