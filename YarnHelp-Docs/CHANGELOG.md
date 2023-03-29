@@ -7,6 +7,7 @@ March 29:
 - Update nav on all pages to include: 
 - ``<li><a href="crafting-and-code.html">Crafting and Code Coffee Chats and Discord</a>``
 after doctorwho.html.
+- Add .margin-bottom-2rem to all li on 1st Crafting and Code section
 
 ## 2.1 (2023.03.27 | March 26-27, 2023)
 
