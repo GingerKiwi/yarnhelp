@@ -1,5 +1,13 @@
 *Note: This changelog includes both technical changes as well as the more personal process of, and reflections and influences on developing this app. Though the latter isn't typical of a commerical project, I've included it in this personal project to help others who are learning to build out their own personal projects.*
 
+
+## 2.1 (2023.03.29 | March 29, 2023)
+March 29:
+- Add crafting-and-code.html for the Crafting and Code Coffee Chats and discord.
+- Update nav on all pages to include: 
+- ``<li><a href="crafting-and-code.html">Crafting and Code Coffee Chats and Discord</a>``
+after doctorwho.html.
+
 ## 2.1 (2023.03.27 | March 26-27, 2023)
 
 March 27:
