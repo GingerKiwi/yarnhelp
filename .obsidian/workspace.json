@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "YarnHelp-Docs/CHANGELOG.md",
+                "file": "YarnHelp-Docs/Calculations.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "YarnHelp-Docs/CHANGELOG.md",
+                "file": "YarnHelp-Docs/Calculations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "YarnHelp-Docs/CHANGELOG.md",
+                "file": "YarnHelp-Docs/Calculations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "YarnHelp-Docs/CHANGELOG.md"
+                "file": "YarnHelp-Docs/Calculations.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "9107b4a5d18ca4ab",
   "lastOpenFiles": [
+    "YarnHelp-Docs/CHANGELOG.md",
     "linkedin-ad.js",
     "Assets/sam-carter-GHOiyov2TSQ-unsplash.jpg",
     "crafting-and-code.html",
@@ -163,14 +164,12 @@
     "YarnHelp-Docs/PDF-References/CYC_YarnStandards-2018-11-06.pdf",
     "README.md",
     "YarnHelp-Docs/notes.md",
-    "yarnhelp.code-workspace",
     "YarnHelp-Docs/A11y.md",
     "Assets/yarnweight-4-worsted.jpg",
     "Assets/menu.svg",
     "Assets/exit.svg",
     "images/yarnweight-4-worsted.jpg",
     "README-GitBranch-old-1.0-main.md",
-    "YarnHelp-Docs/CHANGELOG.md",
     "YarnHelp-Docs/Readme1.0.md"
   ]
 }
