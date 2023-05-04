@@ -1,5 +1,14 @@
 *Note: This changelog includes both technical changes as well as the more personal process of, and reflections and influences on developing this app. Though the latter isn't typical of a commerical project, I've included it in this personal project to help others who are learning to build out their own personal projects.*
 
+## 2.1 (2023.05.04 | May 04, 2023)
+
+- create a dev branch in git for today's bit of work
+- add all code for both knit and crochet double, queen, and king blankets
+- delete "Comming Soon!" paragraph in double, queen, and king blankets
+- merge dev branch to main
+- Update CHANGELOG.md
+- push to github
+
 ## 2.1 (2023.05.03 | May 03, 2023)
 
 - create a dev branch in git for today's bit of work
