@@ -60,6 +60,9 @@ let catBlanketAnswer04 = document.getElementById('answer-cat-blanket-04')
 let babyBlanketAnswer04 = document.getElementById('answer-baby-blanket-04')
 let throwBlanketAnswer04 = document.getElementById('answer-throw-blanket-04')
 let twinBlanketAnswer04 = document.getElementById('answer-twin-blanket-04')
+let doubleBlanketAnswer04 = document.getElementById('answer-double-blanket-04')
+
+
 
 // Crochet 
 
@@ -67,6 +70,9 @@ let catCrochetBlanketAnswer04 = document.getElementById('answer-cat-crochet-blan
 let babyCrochetBlanketAnswer04 = document.getElementById('answer-baby-crochet-blanket-04')
 let throwCrochetBlanketAnswer04 = document.getElementById('answer-throw-crochet-blanket-04')
 let twinCrochetBlanketAnswer04 = document.getElementById('answer-twin-crochet-blanket-04')
+let doubleCrochetBlanketAnswer04 = document.getElementById('answer-double-crochet-blanket-04')
+
+
 // --- Make it all work! --- //
 
 calculateBtn.addEventListener("click", function() {
@@ -115,12 +121,17 @@ calculateBtn.addEventListener("click", function() {
     const babyBlanket04 = Number(Math.ceil(1340 * 1.05/yardsPerBallValue))
     const throwBlanket04 = Number(Math.ceil(2600 * 1.05/yardsPerBallValue))
     const twinBlanket04 = Number(Math.ceil(4950 * 1.05/yardsPerBallValue))
+    const doubleBlanket04 = Number(Math.ceil(8100 * 1.05/yardsPerBallValue))
+
+
 
     // 04 Crochet
     const catCrochetBlanket04 = Number(Math.ceil(120 * 1.28 * 1.05/yardsPerBallValue))
     const babyCrochetBlanket04 = Number(Math.ceil(1340 * 1.28 * 1.05/yardsPerBallValue))
     const throwCrochetBlanket04 = Number(Math.ceil(2600 * 1.28 * 1.05/yardsPerBallValue))
     const twinCrochetBlanket04 = Number(Math.ceil(4950 * 1.28 * 1.05/yardsPerBallValue))
+    const doubleCrochetBlanket04 = Number(Math.ceil(8100 * 1.28 * 1.05/yardsPerBallValue))
+
 
     // BLANKET YARDAGE REQUIREMENTS
         // cat 120
@@ -182,5 +193,8 @@ calculateBtn.addEventListener("click", function() {
 
     twinBlanketAnswer04.innerHTML = `${twinBlanket04} balls of this yarn are needed to knit a twin blanket.`
     twinCrochetBlanketAnswer04.innerHTML = `${twinCrochetBlanket04} balls of this yarn are needed to crochet a twin blanket.`
+
+    doubleBlanketAnswer04.innerHTML = `${doubleBlanket04} balls of this yarn are needed to knit a double blanket.`
+    doubleCrochetBlanketAnswer04.innerHTML = `${doubleCrochetBlanket04} balls of this yarn are needed to crochet a double blanket.`
 
 }) // New Devs: Dont' forget the last ) ! Nothing works if you forget it.
