@@ -18,8 +18,29 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6d193621b6e3d1b9",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.2.7"
+              }
+            }
+          },
+          {
+            "id": "6bdc94d0d4f7fc6d",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.2.8"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -62,6 +83,14 @@
             "type": "leaf",
             "state": {
               "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "7c30edf5878de86e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
               "state": {}
             }
           }
@@ -146,7 +175,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9107b4a5d18ca4ab",
+  "active": "6bdc94d0d4f7fc6d",
   "lastOpenFiles": [
     "YarnHelp-Docs/Calculations.md",
     "YarnHelp-Docs/CHANGELOG.md",
